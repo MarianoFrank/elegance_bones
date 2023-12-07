@@ -1,0 +1,7 @@
+.chosen a::before{
+    content: "\f057";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 0.5rem;
+    color: rgba(255, 90, 90, 0.7)
+}

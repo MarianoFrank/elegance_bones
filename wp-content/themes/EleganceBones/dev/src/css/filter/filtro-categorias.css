@@ -1,0 +1,8 @@
+.filtro .cat-item a::before {
+    content: "\f07b";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 0.5rem;
+    color: var(--negro);
+  }
+  

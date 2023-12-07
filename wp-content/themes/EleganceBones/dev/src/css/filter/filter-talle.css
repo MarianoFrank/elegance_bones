@@ -1,0 +1,36 @@
+.filtro ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.filtro li {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem;
+  
+}
+
+.filtro a {
+  text-decoration: none;
+  color: var(--negro);
+  padding: .5rem;
+  padding-left: 0;
+  flex: 2;
+  border-bottom: 1px solid transparent;
+}
+
+.filtro a:hover{
+    border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+    color: var(--primario);
+}
+
+.filtro .woocommerce-widget-layered-nav-list__item a::before {
+  content: "\f0ce";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 0.5rem;
+  color: var(--negro);
+}
+

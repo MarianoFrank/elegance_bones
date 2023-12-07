@@ -1,0 +1,9 @@
+/* Icono de carrito */
+
+.carrito_nav{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+}

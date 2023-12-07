@@ -1,0 +1,8 @@
+.filtros{
+    width: 100%;
+    max-width: 30rem;
+}
+
+.widgettitle{
+    text-wrap: nowrap;
+}

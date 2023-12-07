@@ -1,0 +1,120 @@
+.products {
+  width: 100% !important;
+  margin: 2rem 0 !important;
+  display: grid;
+  column-gap: 2rem;
+  row-gap: 4rem;
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  .products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .products {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 1366px) {
+  .products {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Quito estos pseudoelementos que me agrega woocommerce */
+.products::before,
+.products::after {
+  position: fixed;
+  display: none;
+}
+
+.products .product {
+  box-shadow: var(--shadow-1);
+  border-radius: 0.5rem;
+  padding: 2rem !important;
+  width: fit-content !important;
+  margin: 0 !important;
+  position: relative;
+}
+.products .product a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.products .product .woocommerce-LoopProduct-link {
+  text-decoration: none;
+}
+
+.products li.product {
+  list-style-type: none;
+}
+
+.products .product .woocommerce-loop-product__title {
+  color: var(--negro);
+  text-align: center;
+  font-weight: bold;
+}
+
+.products .product .price {
+  width: 100%;
+}
+
+.products .product .amount {
+  display: block;
+  text-align: center;
+  width: 100%;
+  color: var(--negro);
+}
+
+/* Flecha del select */
+.woocommerce-ordering .orderby::-ms-expand {
+  padding-right: 1rem;
+}
+
+.woocommerce-ordering .orderby option {
+  min-height: auto;
+  height: auto;
+  padding: 1rem;
+  border-bottom: 1px solid red;
+}
+
+.woocommerce-ordering {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Button del producto */
+
+.add_to_cart_button {
+  text-decoration: none;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin: 0;
+  transform: translate(-50%, 50%);
+  background-image: var(--gradient);
+  padding: 0.8rem 1.5rem;
+  text-align: center;
+  transition: background-position 0.3s ease;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: var(--shadow-1);
+  border-radius: 3rem;
+  display: block;
+  white-space: nowrap;
+  border: none;
+}
+
+.add_to_cart_button:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}

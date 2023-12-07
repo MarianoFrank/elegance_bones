@@ -1,0 +1,14 @@
+.footer {
+  background-color: var(--negro);
+  color: var(--blanco);
+  text-align: center;
+  padding: 2rem 0;
+}
+
+footer .menu-principal a {
+  color: var(--blanco);
+}
+
+.copyright{
+    margin-top: 4rem;
+}

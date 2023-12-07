@@ -1,0 +1,78 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  height: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  background: var(--blanco);
+}
+
+.container {
+  width: 90%;
+  margin: 2rem auto;
+  max-width: 80rem;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 100%;
+    margin: 2rem auto;
+    max-width: 80rem;
+  }
+}
+
+.container-sidebar {
+  width: 90%;
+  margin: 2rem auto;
+  max-width: 120rem;
+  display: grid;
+
+  gap: 4rem;
+}
+
+@media (min-width: 768px) {
+  .container-sidebar {
+    grid-template-columns: auto 1fr;
+    grid-template-areas: "columna1 columna2";
+  }
+  .container-productos {
+    grid-area: columna2;
+  }
+  .filtros {
+    grid-area: columna1;
+  }
+}
+
+@media (min-width: 1366px) {
+  .container-sidebar {
+    width: 100%;
+  }
+}
+
+p,
+a,
+li,
+span,
+div {
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-size: 3.6rem;
+}
+
+h2 {
+  font-size: 1.7rem;
+}
+
+.text-center {
+  text-align: center;
+}

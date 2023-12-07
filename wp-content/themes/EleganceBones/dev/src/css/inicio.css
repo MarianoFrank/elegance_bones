@@ -1,0 +1,46 @@
+.bienvenida {
+  display: flex;
+  align-items: center;
+  margin: 3rem 0;
+  gap: 3rem;
+}
+
+.bienvenida .contenedor-imagen {
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.bienvenida .filtro-ruido {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  /* filter: contrast(40%) brightness(100%); */
+  background:
+    url(/wp-content/themes/EleganceBones/assets/filter-noise.svg);
+   
+}
+
+.bienvenida .imagen-destacada {
+  width: 40rem;
+  height: auto;
+}
+
+.titulo_bienvenida {
+  text-shadow: var(--primario) 3px 3px;
+}
+
+.bienvenida-texto {
+  text-align: center;
+  margin: 2rem;
+}
+.copy_bienvenida {
+  background-color: var(--blanco);
+  color: black;
+  padding: 2rem;
+}
