@@ -1,17 +1,9 @@
 <?php
-//Agregar Soporte de WOOCOMMERCE a mi tema
+
 function setup()
 {
-    add_theme_support(
-        'woocommerce',
-        apply_filters(
-            'storefront_woocommerce_args',
-            array(
-                //tamaño de las miniaturas de los produtos
-                'thumbnail_image_width' => 200,
-            )
-        )
-    );
+    //Agregar Soporte de WOOCOMMERCE a mi tema
+    add_theme_support('woocommerce');
 
     add_theme_support('wc-product-gallery-zoom');
     add_theme_support('wc-product-gallery-lightbox');
@@ -21,6 +13,10 @@ function setup()
 }
 add_action('after_setup_theme', 'setup');
 
+require get_template_directory() . "/includes/widgets.php";
+require get_template_directory() . "/includes/queries.php";
+//Woocommerce cambios en los hooks
+require get_template_directory() . "/includes/woocommerce-hooks-modify.php";
 
 function debuguear($valor)
 {
@@ -28,9 +24,6 @@ function debuguear($valor)
     var_dump($valor);
     echo "</pre>";
 }
-
-require get_template_directory() . "/includes/widgets.php";
-require get_template_directory() . "/includes/queries.php";
 
 
 function menus()
@@ -54,6 +47,7 @@ function scriptsAndStyles()
     if (is_shop() || is_product_category()) {
         wp_enqueue_script("orderby", get_template_directory_uri() . '/js/orderby.min.js', [], "1.0.0", true);
     }
+    wp_enqueue_script("starsRating", get_template_directory_uri() . '/js/starsRating.min.js', [], "1.0.0", true);
 }
 
 add_action("wp_enqueue_scripts", "scriptsAndStyles");
@@ -86,6 +80,3 @@ function s_array($datos): array
 
     return $s;
 }
-
-//Woocommerce cambios en los hooks
-require get_template_directory() . "/includes/woocommerce-hooks-modify.php";

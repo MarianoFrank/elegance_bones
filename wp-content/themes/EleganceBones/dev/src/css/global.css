@@ -16,25 +16,16 @@ body {
   background: var(--blanco);
 }
 
-.container {
-  width: 90%;
-  margin: 2rem auto;
-  max-width: 80rem;
-}
-@media (min-width: 768px) {
-  .container {
-    width: 100%;
-    margin: 2rem auto;
-    max-width: 80rem;
-  }
-}
-
-.container-sidebar {
+.container, .site-main {
   width: 90%;
   margin: 2rem auto;
   max-width: 120rem;
-  display: grid;
+}
 
+
+.container-sidebar {
+  margin: 2rem auto;
+  display: grid;
   gap: 4rem;
 }
 
@@ -76,3 +67,4 @@ h2 {
 .text-center {
   text-align: center;
 }
+

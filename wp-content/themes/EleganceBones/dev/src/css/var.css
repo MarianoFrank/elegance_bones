@@ -1,9 +1,18 @@
 :root {
-  --primario: #9733EE ;
+  --primario: #622499;
   --negro: #000;
   --blanco: #fff;
-  
-  --gradient:  linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+  --gris: #bdbdbd;
+
+  --rojo: rgba(255, 0, 0, 0.2);
+  --rojo-oscuro: rgba(150, 0, 0);
+
+  --verde: rgba(0, 255, 0, 0.2);
+  --verde-oscuro: rgba(0, 151, 0);
+
+  --amarillo: #ffd700;
+
+  --gradient: linear-gradient(to right, #922ea6 0%, rgb(84, 13, 145) 51%, #8b4698 100%);
 
   --radius: 0.5rem;
 

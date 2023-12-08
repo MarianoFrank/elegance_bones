@@ -1,4 +1,4 @@
-.products {
+.tienda .products {
   width: 100% !important;
   margin: 2rem 0 !important;
   display: grid;
@@ -10,20 +10,48 @@
 }
 
 @media (min-width: 768px) {
-  .products {
+  .tienda .products {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 1024px) {
-  .products {
+  .tienda .products {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 @media (min-width: 1366px) {
-  .products {
+  .tienda .products {
     grid-template-columns: repeat(4, 1fr);
   }
+}
+
+.price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.onsale {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(1rem,-1.5rem);
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: var(--blanco);
+  color: black;
+  padding: .5rem 1rem;
+  border-radius: .5rem;
+  border: 1px solid var(--negro);
+}
+
+.product img {
+  width: 100%;
+  height: auto;
 }
 
 /* Quito estos pseudoelementos que me agrega woocommerce */

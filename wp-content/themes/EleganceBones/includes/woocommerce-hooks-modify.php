@@ -61,47 +61,63 @@ function container_product_open()
 {
     //Tambien abrimos el main
 ?>
-    <main class="container">
-        <div class="grid-producto">
-        <?php
-
-    }
-
-    add_action("woocommerce_before_single_product_summary", "container_product_open", 0);
-
-    //Cerrar contenedor del producto
-    function container_product_close()
-    {
-        ?>
-        </div>
+    <div class="grid-producto">
     <?php
-    }
 
-    add_action("woocommerce_after_single_product_summary", "container_product_close", 0);
+}
 
-    //Cerrar el main 
-    function main_product_close()
-    {
+add_action("woocommerce_before_single_product_summary", "container_product_open", 0);
+
+//Cerrar contenedor del producto
+function container_product_close()
+{
     ?>
-        <?php
-        if (comments_open()) : ?>
-            <div class="woocommerce-tabs">
-                <?php comments_template(); ?>
-            </div>
-        <?php endif; ?>
-    </main>
+    </div>
 <?php
+}
+
+add_action("woocommerce_after_single_product_summary", "container_product_close", 0);
+
+//Cerrar el main 
+function main_product_close()
+{
+?>
+    <?php
+    if (comments_open()) : ?>
+        <div class="woocommerce-tabs">
+            <?php comments_template(); ?>
+        </div>
+    <?php endif; ?>
+
+    <?php
+}
+
+add_action("woocommerce_after_single_product_summary", "main_product_close", 30);
+
+//Removemos el sidebar que genera woocommerce
+remove_action("woocommerce_sidebar", "woocommerce_get_sidebar", 10);
+
+//Remover la descripcion de su lugar original
+remove_filter('woocommerce_after_single_product_summary', 'woocommerce_output_product_data_tabs', 10);
+
+//Agregamos la descripcion despues del div de summary
+function descripcion_single_product()
+{
+    global $product;
+
+    $descripcion = $product->get_description();;
+
+    if (!empty($descripcion)) {
+    ?>
+        <div class="descripcion">
+            <h2>Descripcion</h2>
+            <p>
+                <?php echo nl2br($descripcion); ?>
+            </p>
+        </div>
+<?php
+
     }
+}
 
-    add_action("woocommerce_after_single_product_summary", "main_product_close", 30);
-
-    //Removemos el sidebar que genera woocommerce
-    remove_action("woocommerce_sidebar", "woocommerce_get_sidebar", 10);
-
-    //Remover las reviews de los taps para ponerlas mas abajo en la pagina del producto
-    function quitar_reviews_tab($tabs)
-    {
-        unset($tabs['reviews']);
-        return $tabs;
-    }
-    add_filter('woocommerce_product_tabs', 'quitar_reviews_tab', 98);
+add_filter('woocommerce_single_product_summary', 'descripcion_single_product', 70);

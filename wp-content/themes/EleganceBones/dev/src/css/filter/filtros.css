@@ -1,6 +1,13 @@
 .filtros{
+  
     width: 100%;
-    max-width: 30rem;
+}
+
+@media (min-width: 768px) {
+    .filtros{
+  
+        width: 25rem;
+    }
 }
 
 .widgettitle{

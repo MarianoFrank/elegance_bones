@@ -23,7 +23,7 @@ get_header();
 do_action('woocommerce_before_main_content');
 
 ?>
-<main class="container-sidebar">
+<div class="container-sidebar tienda">
 	<div>
 		<?php
 		if (woocommerce_product_loop()) {
@@ -77,7 +77,7 @@ do_action('woocommerce_before_main_content');
 		?>
 	</div>
 
-</main>
+</div>
 <?php
 /**
  * Hook: woocommerce_after_main_content.

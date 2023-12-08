@@ -1,0 +1,4 @@
+2023-12-08T15:48:11+00:00 CRITICAL Allowed memory size of 536870912 bytes exhausted (tried to allocate 10485760 bytes) en C:\laragon\www\WPelegancebones\wp-includes\class-wp-text-diff-renderer-table.php en la línea 507
+
+2023-12-08T15:48:26+00:00 CRITICAL Allowed memory size of 536870912 bytes exhausted (tried to allocate 532480 bytes) en C:\laragon\www\WPelegancebones\wp-includes\Text\Diff\Renderer.php en la línea 162
+

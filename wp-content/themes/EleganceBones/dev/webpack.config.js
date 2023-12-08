@@ -10,6 +10,7 @@ const entry = {
   //js
   index: "./src/js/index.js",
   orderby: "./src/js/orderby.js",
+  starsRating: "./src/js/starsRating.js",
 };
 
 export default {

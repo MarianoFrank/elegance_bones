@@ -1,0 +1,194 @@
+/* Estilo minimalista para las reviews de WooCommerce */
+
+.woocommerce-tabs {
+  margin-top: 2rem;
+}
+
+.woocommerce-Reviews-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.comment_container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  padding: 2rem 0;
+  border-bottom: 1px solid var(--gris);
+}
+
+.avatar {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.star-rating {
+  margin-bottom: 5px;
+}
+
+.rating {
+  color: #ffd700; /* Color amarillo para las estrellas */
+}
+
+.woocommerce-review__author {
+  font-weight: bold;
+}
+
+.woocommerce-review__published-date {
+  color: #777;
+}
+
+.description {
+  margin-top: 10px;
+}
+
+/* Elimina el espacio entre los elementos de la lista de comentarios */
+.commentlist {
+  padding: 0;
+  list-style: none;
+}
+
+/* Elimina el estilo de lista en el comentario */
+.commentlist > li {
+  list-style: none;
+}
+
+/* Elimina el espacio entre elementos del contenedor de comentarios */
+.comment_container > * {
+  margin: 0;
+}
+
+
+/* Ajusta el estilo del mensaje para usuarios no registrados */
+.woocommerce-verification-required {
+  font-style: italic;
+  color: #777;
+  margin-top: 20px;
+}
+
+.clear {
+  clear: both;
+}
+
+.comment_container img {
+  width: 3rem;
+  height: auto;
+}
+
+.comment-text .description p {
+  margin: 0;
+}
+
+/* Form */
+
+/* Estilo minimalista para el formulario de reseñas de WooCommerce */
+
+#review_form_wrapper {
+  margin-top: 20px;
+}
+
+.comment-respond {
+  margin: 5rem 0;
+}
+
+.comment-reply-title {
+  font-size: 1.5em;
+}
+
+#cancel-comment-reply-link {
+  color: #888;
+  text-decoration: none;
+}
+
+.comment-form {
+  margin-top: 2rem;
+}
+
+.comment-form label{
+  font-weight: bold;
+}
+
+.comment-form-rating {
+  margin-bottom: 20px;
+}
+
+.stars {
+  font-size: 24px;
+}
+
+.stars a {
+  color: #ddd;
+  text-decoration: none;
+  margin-right: 5px;
+}
+
+.stars a:hover,
+.stars a:focus,
+.stars a.active {
+  color: #ffd700; /* Amarillo para estrellas seleccionadas */
+}
+
+.comment-form-comment {
+  margin-bottom: 20px;
+}
+
+.comment-form-comment label {
+  font-weight: bold;
+}
+
+.comment-form-comment textarea {
+  margin-top: 2rem;
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+  resize: none;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  box-shadow: var(--shadow-1);
+}
+
+.form-submit {
+  margin-top: 20px;
+}
+
+.submit{
+  background-color: var(--negro);
+  color: var(--blanco);
+  margin: 0;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  border-radius: var(--radius);
+  border: none;
+  box-shadow: var(--shadow-1);
+  cursor: pointer;
+  border: 1px solid var(--negro);
+}
+
+.submit:hover{
+ background-color: var(--blanco);
+ color: var(--negro);
+}
+
+
+
+
+.star-rating i {
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  color: var(--amarillo);
+}
+
+/* Estrellas de formulario de valoraciones */
+.stars-selector {
+    display: inline-block;
+    margin-left: 2rem;
+}
+
+.stars-selector i {
+  cursor: pointer;
+  color: var(--amarillo);
+  font-family: Font Awesome\ 5 Free;
+  font-style: normal;
+} 

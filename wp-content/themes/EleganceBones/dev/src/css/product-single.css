@@ -1,3 +1,224 @@
-.grid-producto{
+.grid-producto {
+  box-shadow: var(--shadow-1);
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+  position: relative;
+  margin: 4rem 0;
+}
+
+@media (min-width: 1024px) {
+  .grid-producto {
     display: flex;
+    flex-wrap: wrap;
+  }
+  .grid-producto .woocommerce-product-gallery {
+    flex: 0 0 calc(50% - 10px); /* 50% con un margen derecho de 10px */
+    max-width: calc(50% - 10px);
+    margin-right: 20px; /* Añade un margen derecho de 20px para el espacio (gap) */
+  }
+
+  .grid-producto .summary {
+    flex: 0 0 calc(50% - 10px);
+    max-width: calc(50% - 10px);
+  }
+}
+
+.flex-control-thumbs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  gap: 1rem;
+}
+
+.flex-control-thumbs li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.entry-summary .price {
+  justify-content: flex-start;
+  margin-top: 3rem;
+}
+
+.entry-summary .price span {
+  font-size: 2rem;
+}
+.price ins {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Formulario de variacion*/
+.variations_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.variations tr {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.woocommerce-variation-add-to-cart {
+  display: flex;
+  gap: 1rem;
+}
+
+.single_variation_wrap .quantity {
+  width: fit-content;
+  display: block;
+}
+
+.product_meta {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  gap: 1rem;
+}
+
+/* Select variaciones*/
+.variations td {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.variations td select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  appearance: none;
+  position: relative;
+}
+
+.variations td select:focus {
+  outline: none;
+  border-color: #66afe9;
+}
+
+.quantity .input-text {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  appearance: none;
+  position: relative;
+  width: 10rem;
+}
+
+.quantity .input-text:focus {
+  outline: none;
+  border-color: #66afe9;
+}
+
+.reset_variations {
+  padding: 0.5rem 1rem;
+  width: fit-content;
+  border-radius: 0.5rem;
+  border: 1px solid var(--rojo-oscuro);
+  background-color: var(--rojo);
+  color: var(--rojo-oscuro);
+  text-decoration: none;
+}
+.reset_variations::before {
+  content: "\2716";
+}
+
+.in-stock {
+  padding: 0.5rem 1rem;
+  width: fit-content;
+  border-radius: 0.5rem;
+  border: 1px solid var(--verde-oscuro);
+  background-color: var(--verde);
+  color: var(--verde-oscuro);
+}
+
+.out-of-stock {
+  padding: 0.5rem 1rem;
+  width: fit-content;
+  border-radius: 0.5rem;
+  border: 1px solid var(--rojo-oscuro);
+  background-color: var(--rojo);
+  color: var(--rojo-oscuro);
+}
+
+/* Descripcion */
+
+.descripcion {
+  margin-top: 3rem;
+}
+
+/* Productos relacionados */
+.related {
+  margin: 4rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.related .products {
+  padding: 0;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+@media (min-width: 768px) {
+  .related .products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .related .products {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1366px) {
+  .related .products {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Oferta */
+
+.grid-producto .onsale {
+  position: absolute;
+}
+
+/* Zoom Icon */
+
+.woocommerce-product-gallery__trigger {
+  text-decoration: none;
+}
+
+.woocommerce-product-gallery__trigger img {
+  display: none !important;
+}
+
+.woocommerce-product-gallery__trigger::before {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  content: "\f002";
+  font-family: "Font Awesome 5 Free";
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-radius: 50%;
+  box-shadow: var(--shadow-1);
+  z-index: 1;
+  position: absolute;
+  font-weight: 900;
+  color: var(--negro);
+  background-color: var(--blanco);
 }

@@ -1,42 +1,65 @@
-.barra-navegacion{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 150px;
+.barra-navegacion {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 150px;
 }
 
-header .menu-principal{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 2rem;
- 
-   padding: 0;
+header .menu-principal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+
+  padding: 0;
 }
 
-
-header .menu-principal a{
-    color: var(--negro);
-    border-bottom: 1px solid var(--negro);
+header .menu-principal a {
+  color: var(--negro);
+  border-bottom: 1px solid var(--negro);
 }
-
 
 .menu-principal li,
-.menu-principal a{
-    list-style-type: none; 
-    text-decoration: none;
+.menu-principal a {
+  list-style-type: none;
+  text-decoration: none;
 }
 
 /* Logo */
 
-.logo img{
-    width: 150px;
+.logo img {
+  width: 150px;
 }
 
 /* Mensaje de descuento superior */
-.mensaje-descuento{
-    background-color: var(--negro);
-    color: var(--blanco);
-    text-align: center;
-    padding: 1rem 0;
+.mensaje-descuento {
+  background-color: var(--negro);
+  color: var(--blanco);
+  text-align: center;
+  padding: 1rem 0;
+}
+
+/* Navegacion de paginas de woocommerce */
+.woocommerce-breadcrumb {
+  display: flex;
+  align-items: flex-end;
+}
+.woocommerce-breadcrumb a:first-child::before {
+  content: "\f015";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 0.2rem;
+}
+.woocommerce-breadcrumb a {
+  text-decoration: none;
+  color: var(--negro);
+  border-bottom: 1px solid transparent;
+}
+
+.woocommerce-breadcrumb a:hover {
+  border-bottom: 1px solid var(--negro);
+}
+
+.breadcrumb-separator{
+    display: none;
 }
