@@ -11,6 +11,7 @@ const entry = {
   index: "./src/js/index.js",
   orderby: "./src/js/orderby.js",
   starsRating: "./src/js/starsRating.js",
+  miniCart: "./src/js/miniCart.js",
 };
 
 export default {

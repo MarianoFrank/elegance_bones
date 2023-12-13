@@ -15,8 +15,7 @@ header .menu-principal {
 }
 
 header .menu-principal a {
-  color: var(--negro);
-  border-bottom: 1px solid var(--negro);
+  color: var(--title-color);
 }
 
 .menu-principal li,
@@ -28,7 +27,8 @@ header .menu-principal a {
 /* Logo */
 
 .logo img {
-  width: 150px;
+  width: 100px;
+  height: auto;
 }
 
 /* Mensaje de descuento superior */

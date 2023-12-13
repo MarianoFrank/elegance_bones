@@ -38,15 +38,15 @@
   position: absolute;
   top: 0;
   left: 0;
-  transform: translate(1rem,-1.5rem);
+  transform: translate(1rem, -1.5rem);
   text-transform: uppercase;
   font-size: 1.2rem;
   font-weight: bold;
   background-color: var(--blanco);
-  color: black;
-  padding: .5rem 1rem;
-  border-radius: .5rem;
-  border: 1px solid var(--negro);
+  color: var(--title-color);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--title-color);
 }
 
 .product img {
@@ -63,10 +63,16 @@
 
 .products .product {
   box-shadow: var(--shadow-1);
-  border-radius: 0.5rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--gris);
   padding: 2rem !important;
   width: fit-content !important;
   margin: 0 !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
   position: relative;
 }
 .products .product a {
@@ -116,33 +122,4 @@
 .woocommerce-ordering {
   display: flex;
   justify-content: flex-end;
-}
-
-/* Button del producto */
-
-.add_to_cart_button {
-  text-decoration: none;
-  font-weight: bold;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  margin: 0;
-  transform: translate(-50%, 50%);
-  background-image: var(--gradient);
-  padding: 0.8rem 1.5rem;
-  text-align: center;
-  transition: background-position 0.3s ease;
-  background-size: 200% auto;
-  color: white;
-  box-shadow: var(--shadow-1);
-  border-radius: 3rem;
-  display: block;
-  white-space: nowrap;
-  border: none;
-}
-
-.add_to_cart_button:hover {
-  background-position: right center; /* change the direction of the change here */
-  color: #fff;
-  text-decoration: none;
 }

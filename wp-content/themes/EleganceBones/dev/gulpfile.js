@@ -8,6 +8,7 @@ import cssnano from "cssnano";
 import sourcemaps from "gulp-sourcemaps";
 import concat from "gulp-concat";
 import header from "gulp-header";
+import tailwindcss from "tailwindcss";
 
 //WebPack
 import webpack from "webpack-stream";
@@ -16,6 +17,7 @@ import webpackConfig from "./webpack.config.js";
 const paths = {
   css: "src/css/**/*.css",
   js: "src/js/**/*.js",
+  php: "../**/*.php",
 };
 
 const banner = `/* 
@@ -39,21 +41,30 @@ function compileCss() {
     .pipe(dest("../"));
 }
 
+function compileTailwind() {
+  return src("src/css/tailwind.css")
+    .pipe(postcss([tailwindcss(), autoprefixer(), cssnano()]))
+    .pipe(concat("tailwind.css"))
+    .pipe(dest("../"));
+}
+
 function compileJS() {
   return webpack(webpackConfig).pipe(dest("../js"));
 }
 
 function watchs(done) {
+  // watch(paths.php, compileTailwind);
   watch(paths.css, compileCss);
   watch(paths.js, compileJS);
   done();
 }
 
+//para este proyecto no usare tailwind
 const dev = parallel(
   compileCss,
+  // compileTailwind,
   compileJS,
   watchs
 );
-
 
 export { dev };

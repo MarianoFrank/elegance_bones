@@ -1,19 +1,23 @@
-.button{
-  background-color: var(--negro);
+.button,
+input[type="submit"]{
+  background-color: var(--primario);
   color: var(--blanco);
   margin: 0;
-  padding: .5rem 1rem;
+  padding: 1rem 2rem;
   border-radius: var(--radius);
-  border: none;
-  box-shadow: var(--shadow-1);
+  border: none !important;
   cursor: pointer;
-  border: 1px solid var(--negro);
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: none;
+  width: fit-content;
+  white-space: nowrap;
+  text-decoration: none;
 }
 
-.button:hover{
- background-color: var(--blanco);
- color: var(--negro);
+.button:hover,
+input[type="submit"]:hover {
+  background-color: var(--primario-hover);
 }
-
-         
- 

@@ -8,7 +8,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  transform: translate(-25%,-25%);
+  transform: translate(-25%, -25%);
   z-index: 2;
   width: 1.4rem;
   height: 1.4rem;
@@ -19,7 +19,7 @@
   border-radius: 50%;
 }
 
-.ui-slider .ui-slider-handle:focus{
+.ui-slider .ui-slider-handle:focus {
   outline: none;
 }
 
@@ -33,10 +33,10 @@
   z-index: 1;
   display: block;
   border: 0;
-  background-image: var(--gradient);
+  background-color: var(--primario);
 }
 
-.price_label{
+.price_label {
   margin-top: 1rem;
 }
 
@@ -62,4 +62,3 @@
 .ui-slider-horizontal .ui-slider-range-max {
   right: -1px;
 }
-

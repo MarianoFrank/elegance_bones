@@ -153,24 +153,6 @@
   margin-top: 20px;
 }
 
-.submit{
-  background-color: var(--negro);
-  color: var(--blanco);
-  margin: 0;
-  font-size: 1.5rem;
-  padding: 1rem 2rem;
-  border-radius: var(--radius);
-  border: none;
-  box-shadow: var(--shadow-1);
-  cursor: pointer;
-  border: 1px solid var(--negro);
-}
-
-.submit:hover{
- background-color: var(--blanco);
- color: var(--negro);
-}
-
 
 
 

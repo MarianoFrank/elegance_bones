@@ -1,20 +1,31 @@
 :root {
-  --primario: #622499;
+  --primario: #0f172a;
+  --primario-hover: #334155;
   --negro: #000;
   --blanco: #fff;
-  --gris: #bdbdbd;
+  --gris: #e2e8f0;
+  --blanco-secundario: #f9fafb;
+
+  --text-color: #718096;
+  --title-color: #374151;
+
+  /* Colore de alertas y mensajes */
+  --azul-50: #eff6ff;
+  --azul-800: #1e40af;
+  --azul-900: #1e3a8a;
 
   --rojo: rgba(255, 0, 0, 0.2);
   --rojo-oscuro: rgba(150, 0, 0);
 
-  --verde: rgba(0, 255, 0, 0.2);
-  --verde-oscuro: rgba(0, 151, 0);
+  --verde-50: #f0fdf4;
+  --verde-800: #166534;
+  --verde-900: #14532d;
 
+  /* Color de estrellas */
   --amarillo: #ffd700;
-
-  --gradient: linear-gradient(to right, #922ea6 0%, rgb(84, 13, 145) 51%, #8b4698 100%);
 
   --radius: 0.5rem;
 
-  --shadow-1: 0px 1px 4px rgb(0 0 0 / 0.2);
+  --shadow-1: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --input-shadow: 0 0 0 1px var(--gris) inset;
 }
