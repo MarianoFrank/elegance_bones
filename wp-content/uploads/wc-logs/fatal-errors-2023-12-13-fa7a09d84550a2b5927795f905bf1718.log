@@ -1,0 +1,13 @@
+2023-12-13T12:33:32+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\laragon\www\WPelegancebones\wp-content\themes\EleganceBones\template\carrito_nav.php:8
+Stack trace:
+#0 C:\laragon\www\WPelegancebones\wp-content\themes\EleganceBones\header.php(38): require()
+#1 C:\laragon\www\WPelegancebones\wp-includes\template.php(790): require_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\WPelegancebones\wp-includes\template.php(725): load_template('C:\\laragon\\www\\...', true, Array)
+#3 C:\laragon\www\WPelegancebones\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#4 C:\laragon\www\WPelegancebones\wp-content\themes\EleganceBones\index.php(1): get_header()
+#5 C:\laragon\www\WPelegancebones\wp-includes\template-loader.php(106): include('C:\\laragon\\www\\...')
+#6 C:\laragon\www\WPelegancebones\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\WPelegancebones\index.php(17): require('C:\\laragon\\www\\...')
+#8 {main}
+  thrown en C:\laragon\www\WPelegancebones\wp-content\themes\EleganceBones\template\carrito_nav.php en la línea 8
+

@@ -1,11 +1,11 @@
 .button,
-input[type="submit"]{
+input[type="submit"] {
   background-color: var(--primario);
   color: var(--blanco);
   margin: 0;
   padding: 1rem 2rem;
   border-radius: var(--radius);
-  border: none !important;
+  border: none;
   cursor: pointer;
   font-weight: 600;
   display: flex;
@@ -21,3 +21,4 @@ input[type="submit"]{
 input[type="submit"]:hover {
   background-color: var(--primario-hover);
 }
+

@@ -1,15 +1,9 @@
-.filtros{
-  
-    width: 100%;
+.filtros {
+  width: 100%;
 }
 
-@media (min-width: 768px) {
-    .filtros{
-  
-        width: 25rem;
-    }
-}
 
-.widgettitle{
-    text-wrap: nowrap;
+
+.widgettitle {
+  text-wrap: nowrap;
 }

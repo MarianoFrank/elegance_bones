@@ -1,0 +1,1491 @@
+# Translation of Plugins - Mercado Pago payments for WooCommerce - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Mercado Pago payments for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-02-17 00:43:38+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.11\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Mercado Pago payments for WooCommerce - Stable (latest release)\n"
+
+#: src/Translations/AdminTranslations.php:1006
+msgid "Order update successfully. This page will be reloaded..."
+msgstr "Pedido actualizado correctamente. Se va a recargar esta página..."
+
+#: src/Translations/AdminTranslations.php:1001
+#: src/Translations/AdminTranslations.php:1003
+#: src/Translations/AdminTranslations.php:1005
+msgid "Sync order status"
+msgstr "Sincronizar estado del pedido"
+
+#: src/Translations/StoreTranslations.php:168
+msgid "How to use it?"
+msgstr "¿Cómo usar?"
+
+#: src/Translations/StoreTranslations.php:165
+msgid "No card installments in Test Mode"
+msgstr "Mensualidades sin tarjeta en Modo Test"
+
+#: src/Translations/StoreTranslations.php:129
+#: src/Translations/StoreTranslations.php:172
+msgid "By continuing, you will be taken to Mercado Pago to safely complete your purchase."
+msgstr "Al continuar, te llevaremos a Mercado Pago para completar tu compra de forma segura."
+
+#: src/Translations/StoreTranslations.php:110
+msgid "Log in to Mercado Pago and earn benefits"
+msgstr "Inicia sesión en Mercado Pago  y obtén beneficios"
+
+#: src/Translations/AdminTranslations.php:572
+msgid "Component visualization"
+msgstr "Visualización del componente"
+
+#: src/Translations/AdminTranslations.php:564
+msgid "Inform your customers about the option of paying in installments without card"
+msgstr "Informa a tus clientes sobre la posibilidad de pagar a plazos sin tarjeta"
+
+#: src/Translations/AdminTranslations.php:555
+msgid "PREVIEW"
+msgstr "VISTA PREVIA"
+
+#: src/Translations/AdminTranslations.php:554
+msgid "Checkout Preview"
+msgstr "Previsualizar pago"
+
+#: src/Translations/AdminTranslations.php:553
+#: src/Translations/AdminTranslations.php:573
+msgid "Check below how this feature will be displayed to your customers:"
+msgstr "A continuación verás cómo este recurso aparecerá para tus clientes:"
+
+#: src/Translations/AdminTranslations.php:552
+msgid "Checkout visualization"
+msgstr "Visualización en el checkout"
+
+#: src/Translations/AdminTranslations.php:549
+msgid "Offer the option to pay in installments without card directly from your store's checkout."
+msgstr "Ofrece la opción de pago en cuotas sin tarjeta directo desde el checkout de tu tienda."
+
+#: src/Translations/AdminTranslations.php:541
+msgid "Mercado Pago - Installments without card"
+msgstr "Mercado Pago - Cuotas sin tarjeta"
+
+#: src/Translations/AdminTranslations.php:540
+#: src/Translations/AdminTranslations.php:542
+msgid "Customers who buy on spot and pay later in up to 12 installments"
+msgstr "Tus clientes compran al instante y pagan después en hasta 12 cuotas"
+
+#: src/Translations/StoreTranslations.php:126
+msgid "Interest-free installments with selected banks."
+msgstr "Cuotas sin interés con bancos seleccionados."
+
+#: src/Translations/StoreTranslations.php:122
+msgid "Get help if you have a problem with your purchase."
+msgstr "Recibe ayuda si tienes algún problema con tu compra."
+
+#: src/Translations/StoreTranslations.php:120
+msgid "Reliable purchases"
+msgstr "Compra con confianza"
+
+#: src/Translations/StoreTranslations.php:125
+msgid "Pay with or without a credit card."
+msgstr "Paga con o sin tarjeta de crédito."
+
+#: src/Translations/StoreTranslations.php:124
+msgid "Installments option"
+msgstr "Accede a cuotas"
+
+#: src/Translations/StoreTranslations.php:117
+msgid "Use your available money or saved cards."
+msgstr "Usa tu dinero disponible o tarjetas guardadas."
+
+#: src/Translations/StoreTranslations.php:116
+msgid "Use your available Mercado Pago Wallet balance or saved cards."
+msgstr "Usa tu saldo disponible en Mercado Pago Wallet o tarjetas guardadas."
+
+#: src/Translations/StoreTranslations.php:121
+msgid "Get your money back in case you don't receive your product."
+msgstr "Recupera tu dinero si no recibes el producto."
+
+#: src/Translations/StoreTranslations.php:119
+msgid "Protected purchases"
+msgstr "Protege tu compra"
+
+#: src/Translations/StoreTranslations.php:115
+msgid "Use your saved cards, Pix or available balance."
+msgstr "Usa tus tarjetas guardadas, Pix o saldo disponible."
+
+#: src/Translations/StoreTranslations.php:114
+msgid "Quick payments"
+msgstr "Paga rápido"
+
+#: src/Translations/StoreTranslations.php:112
+msgid "Log in with the same email and password you use in Mercado Libre."
+msgstr "Inicia sesión con tu mismo e-mail y contraseña de Mercado Libre."
+
+#: src/Translations/StoreTranslations.php:111
+msgid "Easy login"
+msgstr "Ingresa con facilidad"
+
+#: src/Translations/StoreTranslations.php:128
+msgid "Available payment methods"
+msgstr "Medios de pago disponibles"
+
+#: src/Translations/StoreTranslations.php:241
+msgid "Interest"
+msgstr "Intereses"
+
+#: src/Translations/StoreTranslations.php:240
+msgid "If interest is applicable, it will be charged by your bank."
+msgstr "Si corresponden intereses, serán aplicados por tu banco."
+
+#: src/Translations/StoreTranslations.php:253
+msgid "installments of"
+msgstr "cuotas de"
+
+#: src/Translations/StoreTranslations.php:252
+msgid "Total with installments"
+msgstr "Total a plazos"
+
+#: src/Translations/AdminTranslations.php:660
+msgid "Set fees"
+msgstr "Configurar tasas"
+
+#: src/Translations/AdminTranslations.php:658
+msgid "Installments Fees"
+msgstr "Tasas de pago a plazos"
+
+#: src/Translations/StoreTranslations.php:208
+msgid "Do you have a Mercado Libre account? Then use the same email and password to pay faster with Mercado Pago."
+msgstr ""
+"¿Tienes una cuenta de Mercado Libre? Usa el mismo correo electrónico y contraseña para pagar más rápido \n"
+"con Mercado Pago."
+
+#: src/Translations/StoreTranslations.php:192
+msgid ". Credit subject to approval."
+msgstr ". Crédito sujeto a aprobación."
+
+#: src/Translations/StoreTranslations.php:191
+msgid "Check our FAQ"
+msgstr "Consulta nuestra FAQ"
+
+#: src/Translations/StoreTranslations.php:187
+msgid "Mercado Credito"
+msgstr "Mercado Crédito"
+
+#: src/Translations/StoreTranslations.php:186
+msgid "Search for"
+msgstr "Buscar"
+
+#: src/Translations/StoreTranslations.php:185
+msgid ". Login to your account or create one in a few steps."
+msgstr "Accede a tu cuenta o crea una en pocos pasos."
+
+#: src/Translations/StoreTranslations.php:183
+msgid "When paying, choose"
+msgstr "Al pagar, elige"
+
+#: src/Translations/StoreTranslations.php:182
+msgid "How does it work?"
+msgstr "¿Cómo funciona?"
+
+#: src/Translations/StoreTranslations.php:181
+msgid "100% online, without paperwork or monthly fees"
+msgstr "100% online, sin papeleo ni cuotas mensuales"
+
+#: src/Translations/StoreTranslations.php:180
+msgid "Buy now and pay in installments with no card later!"
+msgstr "¡Compra ahora y paga a plazos más tarde!"
+
+#: src/Translations/StoreTranslations.php:179
+msgid "Read more"
+msgstr "Leer más"
+
+#: src/Translations/StoreTranslations.php:178
+msgid "with Mercado Pago"
+msgstr "con Mercado Pago"
+
+#: src/Translations/StoreTranslations.php:177
+msgid "installments"
+msgstr "plazos"
+
+#: src/Translations/StoreTranslations.php:176
+msgid "Pay in"
+msgstr "Pagar a"
+
+#: src/Translations/AdminTranslations.php:665
+msgid "Payments via Mercado Pago account"
+msgstr "Pagos a través de la cuenta de Mercado Pago"
+
+#: src/Translations/AdminTranslations.php:571
+msgid "Mobile"
+msgstr "Móvil"
+
+#: src/Translations/AdminTranslations.php:570
+msgid "Computer"
+msgstr "Ordenador"
+
+#: src/Translations/AdminTranslations.php:170
+msgid "Activate"
+msgstr "Activar"
+
+#: src/Translations/AdminTranslations.php:289
+msgid "Enter credentials"
+msgstr "Introducir credenciales"
+
+#: src/Translations/AdminTranslations.php:887
+msgid "Enter test credentials"
+msgstr "Ingresa las credenciales de prueba"
+
+#: src/Translations/AdminTranslations.php:265
+msgid "Copy and paste the credentials below."
+msgstr "Copia y pega tus credenciales a continuación."
+
+#: src/Translations/StoreTranslations.php:331
+msgid "Select a payment method"
+msgstr "Selecciona un método de pago"
+
+#: src/Translations/StoreTranslations.php:330
+msgid "more options"
+msgstr "más opciones"
+
+#: src/Translations/StoreTranslations.php:329
+msgid "Select where you want to pay"
+msgstr "Selecciona el punto de pago donde quieres pagar"
+
+#: src/Translations/StoreTranslations.php:271
+msgid "Pix logo"
+msgstr "Logo de Pix"
+
+#: src/Translations/StoreTranslations.php:270
+msgid "By confirming your purchase, we will show you a code to make the payment."
+msgstr "Al confirmar tu compra, te mostraremos un código para realizar el pago."
+
+#: src/Translations/StoreTranslations.php:269
+msgid "Pay instantly"
+msgstr "Pago instantáneo"
+
+#: src/Translations/StoreTranslations.php:267
+msgid "Pix in Test Mode"
+msgstr "Pix en modo test"
+
+#: src/Translations/StoreTranslations.php:226
+#: src/Translations/StoreTranslations.php:328
+msgid "Invalid document"
+msgstr "Número de documento no válido"
+
+#: src/Translations/StoreTranslations.php:225
+#: src/Translations/StoreTranslations.php:327
+msgid "Holder document"
+msgstr "Documento del titular"
+
+#: src/Translations/StoreTranslations.php:221
+msgid "Expiration"
+msgstr "Vencimiento"
+
+#: src/Translations/StoreTranslations.php:219
+msgid "Holder name as it appears on the card"
+msgstr "Nombre del titular como aparece en la tarjeta"
+
+#: src/Translations/StoreTranslations.php:218
+#: src/Translations/StoreTranslations.php:220
+#: src/Translations/StoreTranslations.php:222
+#: src/Translations/StoreTranslations.php:224
+msgid "Required data"
+msgstr "Datos obligatorios"
+
+#: src/Translations/StoreTranslations.php:216
+msgid "Fill in your card details"
+msgstr "Completa los datos de tu tarjeta"
+
+#: src/Translations/StoreTranslations.php:210
+msgid "With which card can you pay?"
+msgstr "¿Con qué tarjeta puedes pagar?"
+
+#: src/Translations/StoreTranslations.php:204
+msgid "Checkout Custom in Test Mode"
+msgstr "Pago personalizado en modo de prueba"
+
+#: src/Translations/StoreTranslations.php:132
+#: src/Translations/StoreTranslations.php:175
+#: src/Translations/StoreTranslations.php:231
+#: src/Translations/StoreTranslations.php:273
+#: src/Translations/StoreTranslations.php:333
+msgid "Terms and conditions"
+msgstr "Términos y condiciones"
+
+#: src/Translations/StoreTranslations.php:131
+#: src/Translations/StoreTranslations.php:174
+#: src/Translations/StoreTranslations.php:230
+#: src/Translations/StoreTranslations.php:272
+#: src/Translations/StoreTranslations.php:332
+msgid "By continuing, you agree with our"
+msgstr "Al continuar, aceptas nuestros"
+
+#: src/Translations/StoreTranslations.php:130
+#: src/Translations/StoreTranslations.php:173
+msgid "Checkout Pro redirect info image"
+msgstr "Imagen de información de redirección de Checkout Pro"
+
+#: src/Translations/StoreTranslations.php:109
+#: src/Translations/StoreTranslations.php:167
+#: src/Translations/StoreTranslations.php:206
+#: src/Translations/StoreTranslations.php:326
+msgid "See the rules for the test mode."
+msgstr "Ver las reglas del modo test."
+
+#: src/Translations/StoreTranslations.php:250
+msgid "Security code incomplete"
+msgstr "Código de seguridad incompleto"
+
+#: src/Translations/StoreTranslations.php:249
+msgid "Security code is required"
+msgstr "Código de seguridad obligatorio"
+
+#: src/Translations/StoreTranslations.php:247
+msgid "Expiration date incomplete"
+msgstr "Fecha de vencimiento obligatorio"
+
+#: src/Translations/StoreTranslations.php:246
+#: src/Translations/StoreTranslations.php:248
+msgid "Expiration date invalid"
+msgstr "Fecha de vencimiento no válida"
+
+#: src/Translations/StoreTranslations.php:245
+msgid "Holder name invalid"
+msgstr "Nombre del titular no válido"
+
+#: src/Translations/StoreTranslations.php:244
+msgid "Holder name is required"
+msgstr "Nombre del titular obligatorio"
+
+#: src/Translations/StoreTranslations.php:243
+msgid "Card number invalid"
+msgstr "Número de tarjeta inválido"
+
+#: src/Translations/StoreTranslations.php:242
+msgid "Card number is required"
+msgstr "Número de tarjeta obligatorio"
+
+#: src/Translations/StoreTranslations.php:237
+msgid "digits"
+msgstr "dígitos"
+
+#: src/Translations/StoreTranslations.php:236
+msgid "on the front"
+msgstr "del frente"
+
+#: src/Translations/StoreTranslations.php:235
+msgid "on the back"
+msgstr "del dorso"
+
+#: src/Translations/StoreTranslations.php:232
+msgid "mm/yy"
+msgstr "mm/aa"
+
+#: src/Translations/StoreTranslations.php:239
+msgid "More options"
+msgstr "Más opciones"
+
+#: src/Translations/StoreTranslations.php:238
+msgid "No fee"
+msgstr "Sin interés"
+
+#: src/Translations/AdminTranslations.php:539
+#: src/Translations/AdminTranslations.php:543
+msgid "Installments without card"
+msgstr "Cuotas sin tarjeta"
+
+#: src/Translations/AdminTranslations.php:425
+#: src/Translations/AdminTranslations.php:440
+msgid "Your saved cards or money in Mercado Pago"
+msgstr "Compras con tarjetas guardadas o saldo en Mercado Pago "
+
+#: src/Translations/AdminTranslations.php:732
+msgid "Reduce inventory is <b>disabled</b>."
+msgstr "Reducir inventario está <b>inactivo</b>."
+
+#: src/Translations/AdminTranslations.php:731
+msgid "Reduce inventory is <b>enabled</b>."
+msgstr "Reducir inventario está <b>activo</b>."
+
+#: src/Translations/AdminTranslations.php:705
+#: src/Translations/AdminTranslations.php:719
+msgid "Invoice"
+msgstr "Factura"
+
+#: src/Translations/AdminTranslations.php:822
+msgid "Find out more about Pix"
+msgstr "Saber más sobre Pix"
+
+#: src/Translations/AdminTranslations.php:820
+msgid "Would you like to know how Pix works?"
+msgstr "¿Quieres saber cómo funciona Pix?"
+
+#: src/Translations/AdminTranslations.php:804
+msgid "Set the limit in minutes for your clients to pay via Pix."
+msgstr "Define el límite de minutos para que tus clientes puedan pagar con Pix."
+
+#: src/Translations/AdminTranslations.php:803
+msgid "Expiration for payments via Pix"
+msgstr "Vencimiento para pagos con Pix"
+
+#: src/Translations/AdminTranslations.php:786
+#: src/Translations/AdminTranslations.php:801
+msgid "Pix"
+msgstr "Pix"
+
+#: src/Translations/AdminTranslations.php:480
+#: src/Translations/AdminTranslations.php:672
+msgid "Automatic decline of payments without instant approval"
+msgstr "Rechazo automático de pagos sin aprobación instantanea"
+
+#: src/Translations/AdminTranslations.php:292
+msgid "Activate credentials"
+msgstr "Activar credenciales"
+
+#: src/Translations/AdminTranslations.php:290
+msgid "Activate your credentials to be able to sell"
+msgstr "Activa tus credenciales para poder vender"
+
+#: src/Translations/AdminTranslations.php:433
+#: src/Translations/AdminTranslations.php:547
+#: src/Translations/AdminTranslations.php:649
+#: src/Translations/AdminTranslations.php:712
+#: src/Translations/AdminTranslations.php:794
+msgid "Go to Settings"
+msgstr "Ir a los ajustes"
+
+#: src/Translations/AdminTranslations.php:647
+msgid "Mercado Pago Plugin general settings"
+msgstr "Ajustes generales del plugin Mercado Pago"
+
+#: src/Translations/AdminTranslations.php:441
+#: src/Translations/AdminTranslations.php:559
+#: src/Translations/AdminTranslations.php:657
+#: src/Translations/AdminTranslations.php:720
+#: src/Translations/AdminTranslations.php:802
+msgid "The text inserted here will not be translated to other languages"
+msgstr "El texto insertado aquí no se traducirá a otros idiomas"
+
+#: src/Translations/AdminTranslations.php:450
+msgid "Other Payment Methods"
+msgstr "Otros medios"
+
+#: src/Translations/AdminTranslations.php:449
+msgid "Debit Cards"
+msgstr "Tarjetas de débito"
+
+#: src/Translations/AdminTranslations.php:448
+msgid "Credit Cards"
+msgstr "Tarjetas de crédito"
+
+#: src/Translations/AdminTranslations.php:446
+msgid "Choose the payment methods you accept in your store"
+msgstr "Elige los medios de pago que se aceptan en la tienda"
+
+#: src/Translations/AdminTranslations.php:451
+msgid "Maximum number of installments"
+msgstr "Máximo de cuotas"
+
+#: src/Translations/AdminTranslations.php:426
+#: src/Translations/AdminTranslations.php:428
+msgid "Debit, Credit and invoice in Mercado Pago environment"
+msgstr "Débito, crédito y efectivo, en Mercado Pago"
+
+#: src/Translations/AdminTranslations.php:362
+msgid "Enabled"
+msgstr "Activado"
+
+#: src/Translations/AdminTranslations.php:943
+msgid "Credentials were updated"
+msgstr "Se actualizaron las credenciales"
+
+#: src/Translations/AdminTranslations.php:892
+msgid "The clients can make real purchases in your store."
+msgstr "Los clientes pueden hacer compras reales en tu tienda."
+
+#: src/Translations/AdminTranslations.php:882
+msgid "Choose how you want to operate your store:"
+msgstr "Elige cómo quieres operar tu tienda:"
+
+#: src/Translations/AdminTranslations.php:361
+msgid "Continue"
+msgstr "Continuar"
+
+#: src/Translations/AdminTranslations.php:359
+msgid "To view more options, please select a payment method below"
+msgstr "Selecciona uno de los siguientes medios de pago para ver más opciones"
+
+#: src/Translations/AdminTranslations.php:358
+msgid "3. Set payment methods"
+msgstr "3. Configura los medios de pago"
+
+#: src/Translations/AdminTranslations.php:322
+msgid "Advanced integration options (optional)"
+msgstr "Opciones avanzadas de integración (opcional)"
+
+#: src/Translations/AdminTranslations.php:334
+msgid "Select"
+msgstr "Seleccionar"
+
+#: src/Translations/AdminTranslations.php:341
+msgid "If this field is empty, the purchase will be identified as Mercado Pago."
+msgstr "Si el campo queda vacío, la compra del cliente se identificará como Mercado Pago."
+
+#: src/Translations/AdminTranslations.php:325
+msgid "Name of your store in your client's invoice"
+msgstr "Nombre de tu tienda en la factura de los clientes"
+
+#: src/Translations/AdminTranslations.php:321
+msgid "Your store information"
+msgstr "Información sobre tu tienda"
+
+#: src/Translations/AdminTranslations.php:320
+msgid "2. Customize your business"
+msgstr "2. Personaliza tu negocio"
+
+#: src/Translations/AdminTranslations.php:286
+#: src/Translations/AdminTranslations.php:340
+msgid "Save and continue"
+msgstr "Guardar y continuar"
+
+#: src/Translations/AdminTranslations.php:285
+msgid "Check credentials"
+msgstr "Consultar credenciales"
+
+#: src/Translations/AdminTranslations.php:243
+msgid "Collections and installments"
+msgstr "Cobros y cuotas"
+
+#: src/Translations/AdminTranslations.php:245
+msgid "Implementation responsible for transmitting data to Mercado Pago in a secure and encrypted way."
+msgstr "Implementación responsable de transmitir los datos a Mercado Pago de forma segura y encriptada."
+
+#: src/Translations/AdminTranslations.php:239
+msgid "Curl"
+msgstr "Curl"
+
+#: src/Translations/AdminTranslations.php:240
+msgid "GD Extensions"
+msgstr "Extensiones GD"
+
+#: src/Translations/AdminTranslations.php:238
+msgid "SSL"
+msgstr "SSL"
+
+#: src/Translations/AdminTranslations.php:242
+msgid "Technical requirements"
+msgstr "Requisitos técnicos"
+
+#: src/Translations/AdminTranslations.php:218
+msgid "from Mercado Pago"
+msgstr "de Mercado Pago"
+
+#: src/Translations/AdminTranslations.php:184
+#: src/Translations/AdminTranslations.php:251
+msgid "Plugin manual"
+msgstr "Manual del plugin"
+
+#: src/Translations/AdminTranslations.php:182
+msgid "Set plugin"
+msgstr "Configurar plugin"
+
+#: src/Translations/StoreTranslations.php:336
+msgid " and "
+msgstr " y "
+
+#: src/Translations/AdminTranslations.php:814
+msgid "6 days"
+msgstr "6 días"
+
+#: src/Translations/AdminTranslations.php:813
+msgid "5 days"
+msgstr "5 días"
+
+#: src/Translations/AdminTranslations.php:812
+msgid "4 days"
+msgstr "4 días"
+
+#: src/Translations/AdminTranslations.php:811
+msgid "3 days"
+msgstr "3 días"
+
+#: src/Translations/AdminTranslations.php:810
+msgid "2 days"
+msgstr "2 días"
+
+#: src/Translations/AdminTranslations.php:159
+msgid "Mercado Pago Error: PHP Extension GD is not installed. Installation of GD extension is required to send QR Code Pix by email."
+msgstr "Error en Mercado Pago: La extensión GD de PHP no está instalada. Es necesaria la instalación de la extensión GD para enviar el QR Code Pix por correo electrónico."
+
+#: src/Translations/AdminTranslations.php:999
+msgid "This is the payment status of your Mercado Pago Activities. To check the order status, please refer to Order details."
+msgstr "Este es el estado del pago de tus actividades de Mercado Pago. Para comprobar el estado del pedido, por favor, consulta los detalles del pedido."
+
+#: src/Translations/StoreTranslations.php:324
+msgid "Offline Methods in Test Mode"
+msgstr "Métodos offline en el modo de pruebas"
+
+#: src/Translations/AdminTranslations.php:809
+msgid "24 hours"
+msgstr "24 horas"
+
+#: src/Translations/AdminTranslations.php:808
+msgid "12 hours"
+msgstr "12 horas"
+
+#: src/Translations/AdminTranslations.php:807
+msgid "60 minutes"
+msgstr "60 minutes"
+
+#: src/Translations/AdminTranslations.php:806
+msgid "30 minutes (recommended)"
+msgstr "30 minutos (recomendado)"
+
+#: src/Translations/AdminTranslations.php:805
+msgid "15 minutes"
+msgstr "15 minutos"
+
+#: src/Translations/StoreTranslations.php:108
+#: src/Translations/StoreTranslations.php:166
+#: src/Translations/StoreTranslations.php:205
+msgid "Use Mercado Pago's payment methods without real charges. "
+msgstr "Usa los métodos de pago de Mercado Pago sin cargos reales. "
+
+#: src/Translations/StoreTranslations.php:107
+msgid "Checkout Pro in Test Mode"
+msgstr "El pago Pro en modo de pruebas"
+
+#: src/Translations/AdminTranslations.php:946
+msgid "Invalid credentials"
+msgstr "Credenciales no válidas"
+
+#: src/Translations/AdminTranslations.php:1004
+msgid "Check the reasons why the purchase was declined."
+msgstr "Consulta los motivos del rechazo de tu compra."
+
+#: src/Translations/AdminTranslations.php:1000
+#: src/Translations/AdminTranslations.php:1002
+msgid "View purchase details at Mercado Pago"
+msgstr "Ver detalles de compra en Mercado Pago"
+
+#: src/Translations/AdminTranslations.php:998
+msgid "Payment status on Mercado Pago"
+msgstr "Estado de pago en el Mercado Pago"
+
+#: src/Translations/AdminTranslations.php:1117
+msgid "The transaction could not be completed."
+msgstr "No fue posible completar la transacción."
+
+#: src/Translations/AdminTranslations.php:1116
+msgid "There was an error"
+msgstr "Hubo un error"
+
+#: src/Translations/AdminTranslations.php:1115
+msgid "The buyer does not have enough balance to make the purchase. Please ask your client to deposit money to the Mercado Pago Account or to use a different payment method."
+msgstr "El comprador no tiene suficiente saldo para hacer la compra. Por favor, pide a tu cliente que deposite dinero en la cuenta de Mercado Pago o que use un método de pago diferente."
+
+#: src/Translations/AdminTranslations.php:1113
+msgid "The card-issuing bank declined the payment. Please instruct your client to ask the bank to authorize it."
+msgstr "El banco emisor de la tarjeta rechazó el pago. Pídele a tu cliente que se comunique con el banco para autorizar el pago."
+
+#: src/Translations/AdminTranslations.php:1110
+msgid "The debit function is not enabled for the card. Please tell your client that it is possible to pay with credit or to use another one."
+msgstr "La función de débito no está activada para la tarjeta. Por favor, dile a tu cliente que es posible pagar con la de crédito o usar otra."
+
+#: src/Translations/AdminTranslations.php:1111
+msgid "The credit function is not enabled for the card. Please tell your client that it is possible to pay with debit or to use another one."
+msgstr "La función de crédito no está activada para la tarjeta. Por favor, dile a tu cliente que es posible pagar con la de débito o usar otra."
+
+#: src/Translations/AdminTranslations.php:1106
+msgid "The amount exceeded the card's limit. Please ask your client to use another card or to get in touch with the bank."
+msgstr "El importe ha superado el límite de la tarjeta. Por favor, pide a tu cliente que use otra tarjeta o contacte con el banco."
+
+#: src/Translations/AdminTranslations.php:1100
+#: src/Translations/AdminTranslations.php:1102
+#: src/Translations/AdminTranslations.php:1104
+msgid "Please ask your client to use another card or to get in touch with the card issuer."
+msgstr "Pídele a tu cliente que use otra tarjeta o que se comunique con el emisor de la tarjeta."
+
+#: src/Translations/AdminTranslations.php:1098
+msgid "The amount exceeded the card limit. Please ask your client to use another card or to get in touch with the bank."
+msgstr "El importe ha superado el límite de la tarjeta. Por favor, pide a tu cliente que use otra tarjeta o que contacte con el banco."
+
+#: src/Translations/AdminTranslations.php:1090
+msgid "The card is not active yet. Please ask your client to use another card or to get in touch with the bank to activate it."
+msgstr "La tarjeta aún no está activada. Por favor, pide a tu cliente que use otra tarjeta o que contacte con el banco para activarla."
+
+#: src/Translations/AdminTranslations.php:1088
+msgid "From Mercado Pago we have detected that this payment has already been made before. If that is not the case, your client may try to pay again."
+msgstr "Desde Mercado Pago detectamos que este pago ya se hizo anteriormente. Si no es así, tu cliente puede intentarlo de nuevo."
+
+#: src/Translations/AdminTranslations.php:1086
+msgid "The card-issuing bank declined the payment. Please instruct your client to ask the bank to authotize it or to use another card."
+msgstr "El banco emisor de la tarjeta ha rechazado el pago. Por favor, indica a tu cliente que pida al banco que lo autorice o que use otra tarjeta."
+
+#: src/Translations/AdminTranslations.php:1084
+msgid "The card does not allow the number of installments entered. Please ask your client to choose another installment plan or to use another card."
+msgstr "La tarjeta no permite el número de plazos introducido. Por favor, pide a tu cliente que elija otro plan de plazos o que use otra tarjeta."
+
+#: src/Translations/AdminTranslations.php:1082
+msgid "The CVV was entered incorrectly several times. Please ask your client to use another card or to get in touch with the bank."
+msgstr "El código CVV se ha introducido varias veces de forma incorrecta. Por favor, pide a tu cliente que use otra tarjeta o que contacte con el banco."
+
+#: src/Translations/AdminTranslations.php:1077
+msgid "The card does not have sufficient balance. Please ask your client to use another card or to get in touch with the bank."
+msgstr "La tarjeta no tiene saldo suficiente. Por favor, pide a tu cliente que use otra tarjeta o que contacte con el banco."
+
+#: src/Translations/AdminTranslations.php:1078
+msgid "The card does not have enough limit. Please ask your client to use another card or to get in touch with the bank."
+msgstr "La tarjeta no tiene suficiente límite. Por favor, pide a tu cliente que use otra tarjeta o que contacte con el banco."
+
+#: src/Translations/AdminTranslations.php:1073
+#: src/Translations/AdminTranslations.php:1092
+msgid "The buyer is suspended in our platform. Your client must contact us to check what happened."
+msgstr "El comprador está suspendido en nuestra plataforma. Tu cliente debe contactar con nosotros para comprobar qué ha pasado."
+
+#: src/Translations/AdminTranslations.php:1071
+#: src/Translations/AdminTranslations.php:1094
+#: src/Translations/AdminTranslations.php:1096
+msgid "This payment was declined because it did not pass Mercado Pago security controls. Please ask your client to use another card."
+msgstr "Se ha rechazado este pago porque no ha pasado los controles de seguridad de Mercado Pago. Por favor, pide a tu cliente que use otra tarjeta."
+
+#: src/Translations/AdminTranslations.php:1069
+msgid "The card is expired. Please ask your client to use another card or to contact the bank."
+msgstr "La tarjeta está caducada. Por favor, pide a tu cliente que use otra tarjeta o que contacte con el banco."
+
+#: src/Translations/AdminTranslations.php:1067
+msgid "The CVV is invalid. Please ask your client to review the details or use another card."
+msgstr "El código CVV no es válido. Por favor, pide a tu cliente que revise los datos o que use otra tarjeta."
+
+#: src/Translations/AdminTranslations.php:1063
+#: src/Translations/AdminTranslations.php:1108
+msgid "The client did not pay within the time limit."
+msgstr "El cliente no pagó dentro del límite de tiempo."
+
+#: src/Translations/AdminTranslations.php:1062
+#: src/Translations/AdminTranslations.php:1107
+msgid "Expired payment deadline"
+msgstr "Ha vencido el plazo del pago"
+
+#: src/Translations/AdminTranslations.php:1060
+msgid "Mercado Pago did not process the payment"
+msgstr "Mercado Pago no procesó el pago"
+
+#: src/Translations/AdminTranslations.php:1053
+msgid "The payment could not be processed. Please ask your client to use another card or to get in touch with the bank."
+msgstr "No se ha podido procesar el pago. Por favor, pide a tu cliente que use otra tarjeta o que contacte con el banco."
+
+#: src/Translations/AdminTranslations.php:1051
+msgid "Waiting for the card issuer."
+msgstr "Esperando al emisor de la tarjeta."
+
+#: src/Translations/AdminTranslations.php:1049
+msgid "Waiting for the buyer."
+msgstr "Esperando al comprador."
+
+#: src/Translations/AdminTranslations.php:1041
+#: src/Translations/AdminTranslations.php:1043
+#: src/Translations/AdminTranslations.php:1045
+msgid "Awaiting payment information validation."
+msgstr "Esperando la validación de la información del pago."
+
+#: src/Translations/AdminTranslations.php:1039
+msgid "The bank is reviewing the payment. As soon as we have their confirmation, we will notify you via email so that you can deliver the product or provide the service."
+msgstr "El banco está revisando el pago. En cuanto tengamos su confirmación, te avisaremos por correo electrónico para que puedas entregar el producto o proporcionar el servicio."
+
+#: src/Translations/AdminTranslations.php:1037
+#: src/Translations/AdminTranslations.php:1047
+msgid "Please wait or contact Mercado Pago for further details"
+msgstr "Espera o contacta a Mercado Pago para saber más detalles"
+
+#: src/Translations/AdminTranslations.php:1036
+msgid "Payment in process"
+msgstr "Pago en proceso"
+
+#: src/Translations/AdminTranslations.php:1035
+msgid "The payment has been authorized on the client's card. Please capture the payment."
+msgstr "Ya se autorizó el pago en la tarjeta del cliente. Haz la captura del pago."
+
+#: src/Translations/AdminTranslations.php:1034
+msgid "Payment authorized. Awaiting capture."
+msgstr "Pago autorizado. Esperando captura."
+
+#: src/Translations/AdminTranslations.php:1033
+#: src/Translations/AdminTranslations.php:1055
+#: src/Translations/AdminTranslations.php:1057
+#: src/Translations/AdminTranslations.php:1059
+#: src/Translations/AdminTranslations.php:1065
+#: src/Translations/AdminTranslations.php:1075
+#: src/Translations/AdminTranslations.php:1080
+msgid "The card-issuing bank declined the payment. Please ask your client to use another card or to get in touch with the bank."
+msgstr "El banco emisor de la tarjeta ha rechazado el pago. Por favor, pide a tu cliente que use otra tarjeta o que contacte con el banco."
+
+#: src/Translations/AdminTranslations.php:1032
+#: src/Translations/AdminTranslations.php:1052
+#: src/Translations/AdminTranslations.php:1054
+#: src/Translations/AdminTranslations.php:1056
+#: src/Translations/AdminTranslations.php:1058
+#: src/Translations/AdminTranslations.php:1064
+#: src/Translations/AdminTranslations.php:1066
+#: src/Translations/AdminTranslations.php:1068
+#: src/Translations/AdminTranslations.php:1070
+#: src/Translations/AdminTranslations.php:1072
+#: src/Translations/AdminTranslations.php:1074
+#: src/Translations/AdminTranslations.php:1076
+#: src/Translations/AdminTranslations.php:1079
+#: src/Translations/AdminTranslations.php:1081
+#: src/Translations/AdminTranslations.php:1083
+#: src/Translations/AdminTranslations.php:1085
+#: src/Translations/AdminTranslations.php:1087
+#: src/Translations/AdminTranslations.php:1089
+#: src/Translations/AdminTranslations.php:1091
+#: src/Translations/AdminTranslations.php:1093
+#: src/Translations/AdminTranslations.php:1095
+#: src/Translations/AdminTranslations.php:1097
+#: src/Translations/AdminTranslations.php:1099
+#: src/Translations/AdminTranslations.php:1101
+#: src/Translations/AdminTranslations.php:1103
+#: src/Translations/AdminTranslations.php:1109
+#: src/Translations/AdminTranslations.php:1112
+#: src/Translations/AdminTranslations.php:1114
+msgid "Declined payment"
+msgstr "Cobro rechazado"
+
+#: src/Translations/AdminTranslations.php:1031
+msgid "We are veryfing the payment. We will notify you by email in up to 6 hours if everything is fine so that you can deliver the product or provide the service."
+msgstr "Estamos verificando el pago. Si todo es correcto, te avisaremos por correo electrónico en un plazo de 6 horas para que puedas entregar el producto o proporcionar el servicio."
+
+#: src/Translations/AdminTranslations.php:1023
+#: src/Translations/AdminTranslations.php:1025
+#: src/Translations/AdminTranslations.php:1027
+#: src/Translations/AdminTranslations.php:1029
+msgid "Awaiting payment from the buyer."
+msgstr "Esperando el pago del comprador."
+
+#: src/Translations/AdminTranslations.php:1022
+#: src/Translations/AdminTranslations.php:1024
+#: src/Translations/AdminTranslations.php:1026
+#: src/Translations/AdminTranslations.php:1028
+#: src/Translations/AdminTranslations.php:1030
+#: src/Translations/AdminTranslations.php:1038
+#: src/Translations/AdminTranslations.php:1040
+#: src/Translations/AdminTranslations.php:1042
+#: src/Translations/AdminTranslations.php:1044
+#: src/Translations/AdminTranslations.php:1046
+#: src/Translations/AdminTranslations.php:1048
+#: src/Translations/AdminTranslations.php:1050
+#: src/Translations/AdminTranslations.php:1105
+msgid "Pending payment"
+msgstr "Pago pendiente"
+
+#: src/Translations/AdminTranslations.php:1021
+msgid "The payment has been canceled by the customer."
+msgstr "El pago fue cancelado por el cliente."
+
+#: src/Translations/AdminTranslations.php:1020
+msgid "Purchase canceled"
+msgstr "Compra cancelada"
+
+#: src/Translations/AdminTranslations.php:1019
+msgid "The payment has been successfully canceled."
+msgstr "El pago ha sido cancelado correctamente."
+
+#: src/Translations/AdminTranslations.php:1018
+msgid "Payment canceled"
+msgstr "Pago cancelado"
+
+#: src/Translations/AdminTranslations.php:1017
+msgid "The payment has been partially returned to the client."
+msgstr "El pago ya fue devuelto parcialmente al cliente."
+
+#: src/Translations/AdminTranslations.php:1015
+msgid "The payment has been returned to the client."
+msgstr "El pago ya fue devuelto al cliente."
+
+#: src/Translations/AdminTranslations.php:1014
+#: src/Translations/AdminTranslations.php:1016
+msgid "Payment returned"
+msgstr "Pago devuelto"
+
+#: src/Translations/AdminTranslations.php:1013
+msgid "Your refund request has been made. Please contact Mercado Pago for further details."
+msgstr "Tu pedido de reebolso ya fue realizado. Contacta a Mercado Pago para saber más detalles."
+
+#: src/Translations/AdminTranslations.php:1011
+#: src/Translations/AdminTranslations.php:1061
+msgid "Please contact Mercado Pago for further details."
+msgstr "Contacta a Mercado Pago para saber más detalles."
+
+#: src/Translations/AdminTranslations.php:1010
+msgid "Call resolved"
+msgstr "Llamada resuelta"
+
+#: src/Translations/AdminTranslations.php:1009
+msgid "Payment made by the buyer and already credited in the account."
+msgstr "El pago realizado por el comprador y que ya está acreditado en la cuenta."
+
+#: src/Translations/AdminTranslations.php:1008
+msgid "Payment made"
+msgstr "Pago realizado"
+
+#: src/Translations/AdminTranslations.php:439
+#: src/Translations/AdminTranslations.php:655
+#: src/Translations/AdminTranslations.php:718
+#: src/Translations/AdminTranslations.php:800
+msgid "Change the display text in Checkout, maximum characters: 85"
+msgstr "Cambiar el texto mostrado al finalizar la compra. Caracteres máximos: 85"
+
+#: src/Translations/StoreTranslations.php:207
+msgid "Pay with saved cards"
+msgstr "Pagar con tarjetas guardadas"
+
+#: src/Translations/StoreTranslations.php:285
+msgid "Copy code"
+msgstr "Copiar código"
+
+#: src/Translations/StoreTranslations.php:284
+msgid "If you prefer, you can pay by copying and pasting the following code"
+msgstr "Si lo prefieres, puedes pagar copiando y pegando el siguiente código"
+
+#: src/Translations/StoreTranslations.php:282
+msgid "Scan the QR code:"
+msgstr "Escanea el código QR:"
+
+#: src/Translations/StoreTranslations.php:281
+msgid "Value: "
+msgstr "Valor: "
+
+#: src/Translations/StoreTranslations.php:280
+msgid "Done! You will see the payment confirmation"
+msgstr "Listo. Verás la confirmación del pago"
+
+#: src/Translations/StoreTranslations.php:277
+msgid "Go to your bank's app or website"
+msgstr "Entra en la app o en la página web de tu banco"
+
+#: src/Translations/StoreTranslations.php:276
+msgid "How to pay with Pix:"
+msgstr "Cómo pagar con Pix:"
+
+#: src/Translations/StoreTranslations.php:274
+#: src/Translations/StoreTranslations.php:283
+msgid "Code valid for "
+msgstr "Código válido por "
+
+#: src/Translations/AdminTranslations.php:164
+msgid "Register your Pix key at Mercado Pago."
+msgstr "Registra tu clave Pix en Mercado Pago."
+
+#: src/Translations/AdminTranslations.php:163
+msgid "Please note that to receive payments via Pix at our checkout, you must have a Pix key registered in your Mercado Pago account."
+msgstr "Por favor, ten en cuenta que, para recibir pagos a través de Pix en nuestra finalización de compra, debes tener registrada en tu cuenta de Mercado Pago una clave de Pix."
+
+#: src/Translations/StoreTranslations.php:288
+msgid "Scan the QR code below or copy and paste the code into your bank's application."
+msgstr "Explora el siguiente código QR o copia y pega el código en la aplicación de tu banco."
+
+#: src/Translations/AdminTranslations.php:815
+msgid "7 days"
+msgstr "7 días"
+
+#: src/Translations/AdminTranslations.php:823
+msgid "Advanced configuration of the Pix experience"
+msgstr "Configuración avanzada de la experiencia Pix"
+
+#: src/Translations/AdminTranslations.php:839
+msgid "click here."
+msgstr "haz clic aquí."
+
+#: src/Translations/AdminTranslations.php:838
+msgid "If you have already registered a Pix key at Mercado Pago and cannot activate Pix in the checkout, "
+msgstr "Si ya has registrado una clave de Pix en Mercado Pago y no puedes activar Pix en la finalización de la compra, "
+
+#: src/Translations/AdminTranslations.php:837
+msgid "Learn more about Pix"
+msgstr "Más información sobre Pix"
+
+#: src/Translations/AdminTranslations.php:836
+msgid "If you requested your registration outside these hours, we will confirm it within the next business day."
+msgstr "Si has solicitado tu registro fuera de este horario, te lo confirmaremos en el siguiente día hábil."
+
+#: src/Translations/AdminTranslations.php:835
+msgid "Remember that, for the time being, the Central Bank of Brazil is open Monday through Friday, from 9am to 6pm."
+msgstr "Recuerda que, por el momento, el Banco Central de Brasil está abierto de lunes a viernes, de 9 a 18 horas."
+
+#: src/Translations/AdminTranslations.php:832
+msgid "Download the Mercado Pago app on your cell phone."
+msgstr "Descarga la app de Mercado Pago en tu móvil."
+
+#: src/Translations/AdminTranslations.php:831
+msgid "To activate Pix, you must have a key registered in Mercado Pago."
+msgstr "Para activar el Pix, debes tener una clave registrada en Mercado Pago."
+
+#: src/Translations/StoreTranslations.php:302
+msgid "Waiting for the Pix payment."
+msgstr "Esperando el pago de Pix."
+
+#: src/Translations/AdminTranslations.php:167
+msgid "Rate the plugin"
+msgstr "Valorar el plugin"
+
+#: src/Translations/AdminTranslations.php:166
+msgid "Your opinion is very important so that we can offer you the best possible payment solution and continue to improve."
+msgstr "Tu opinión es muy importante para poder ofrecerte la mejor solución de pagos posible y seguir mejorando."
+
+#: src/Translations/StoreTranslations.php:190
+msgid "Questions? "
+msgstr "¿Dudas? "
+
+#: src/Translations/AdminTranslations.php:364
+msgid "Configure your credentials to enable Mercado Pago payment methods."
+msgstr "Configura tus credenciales para activar los métodos de pago de Mercado Pago."
+
+#: src/Translations/AdminTranslations.php:442
+#: src/Translations/AdminTranslations.php:560
+#: src/Translations/AdminTranslations.php:661
+#: src/Translations/AdminTranslations.php:721
+#: src/Translations/AdminTranslations.php:816
+msgid "Convert Currency"
+msgstr "Convertir moneda"
+
+#: src/Translations/AdminTranslations.php:443
+#: src/Translations/AdminTranslations.php:561
+#: src/Translations/AdminTranslations.php:662
+#: src/Translations/AdminTranslations.php:722
+#: src/Translations/AdminTranslations.php:817
+msgid "Activate this option so that the value of the currency set in WooCommerce is compatible with the value of the currency you use in Mercado Pago."
+msgstr "Activa esta opción para que el valor de la moneda configurada en WooCommerce sea compatible al valor de la moneda que usas en Mercado Pago."
+
+#: src/Translations/AdminTranslations.php:330
+msgid "Integrator ID"
+msgstr "Integrator ID"
+
+#: src/Translations/AdminTranslations.php:735
+msgid "Choose the available payment methods in your store."
+msgstr "Selecciona los medios de pago disponibles en tu tienda."
+
+#: src/Translations/AdminTranslations.php:162
+#: src/WoocommerceMercadoPago.php:565
+msgid "See WooCommerce"
+msgstr "Ver WooCommerce"
+
+#: src/Translations/AdminTranslations.php:161
+#: src/WoocommerceMercadoPago.php:564
+msgid "Install WooCommerce"
+msgstr "Instalar WooCommerce"
+
+#: src/Translations/AdminTranslations.php:160
+#: src/WoocommerceMercadoPago.php:563
+msgid "Activate WooCommerce"
+msgstr "Activar WooCommerce"
+
+#: src/Translations/AdminTranslations.php:151
+#: src/WoocommerceMercadoPago.php:560
+msgid "The Mercado Pago module needs an active version of %s in order to work!"
+msgstr "¡El módulo de Mercado Pago necesita una versión de %s activa para funcionar!"
+
+#. Author URI of the plugin
+msgid "https://developers.mercadopago.com/"
+msgstr "https://developers.mercadopago.com/"
+
+#: src/Translations/AdminTranslations.php:471
+msgid "Do you want your customer to automatically return to the store after payment?"
+msgstr "¿Quieres que tu cliente vuelva automáticamente a la tienda después del pago?"
+
+#: src/Translations/AdminTranslations.php:466
+msgid "Payment experience"
+msgstr "Experiencia de pago"
+
+#: src/Translations/StoreTranslations.php:335
+msgid "Print ticket"
+msgstr "Imprimir tique"
+
+#: src/Translations/StoreTranslations.php:334
+msgid "Great, we processed your purchase order. Complete the payment with ticket so that we finish approving it."
+msgstr "Excelente, hemos procesado tu pedido de compra. Completa el pago con el tique así podemos terminar de aprobarlo."
+
+#: src/Translations/AdminTranslations.php:158
+msgid "Mercado Pago Error: PHP Extension CURL is not installed."
+msgstr "Error en Mercado Pago: La extensión cURL de PHP no está instalada."
+
+#. Plugin Name of the plugin
+msgid "Mercado Pago payments for WooCommerce"
+msgstr "Mercado Pago payments for WooCommerce"
+
+#: src/Translations/StoreTranslations.php:234
+msgid "Installments"
+msgstr "Cuotas"
+
+#: src/Translations/StoreTranslations.php:309
+#: src/Translations/StoreTranslations.php:310
+msgid "The payment is in mediation or the purchase was unknown by the customer."
+msgstr "El pago está en mediación o la compra era desconocida para el cliente."
+
+#: src/Translations/StoreTranslations.php:308
+msgid "Payment was canceled."
+msgstr "El pago fue cancelado."
+
+#: src/Translations/StoreTranslations.php:305
+msgid "Payment is pending review."
+msgstr "El pago está pendiente de revisión."
+
+#: src/Translations/StoreTranslations.php:304
+msgid "The customer has not made the payment yet."
+msgstr "El cliente todavía no efectuó el pago."
+
+#: src/Translations/AdminTranslations.php:470
+msgid "Return to the store"
+msgstr "Volver a la tienda"
+
+#: src/Translations/AdminTranslations.php:478
+msgid "Payment URL pending"
+msgstr "URL de pago pendiente"
+
+#: src/Translations/AdminTranslations.php:479
+msgid "Choose the URL that we will show to your customers when they have a payment pending approval."
+msgstr "Elige la URL que mostraremos a tus clientes cuando tengan un pago pendiente de aprobación."
+
+#: src/Translations/AdminTranslations.php:476
+msgid "Payment URL rejected"
+msgstr "URL de pago rechazado"
+
+#: src/Translations/AdminTranslations.php:477
+msgid "Choose the URL that we will show to your customers when we refuse their purchase. Make sure it includes a message appropriate to the situation and give them useful information so they can solve it."
+msgstr "Elige la URL que mostraremos a tus clientes cuando rechacemos su compra. Asegúrate de incluir un mensaje adecuado a la situación y dales información útil para que puedan solucionarlo."
+
+#: src/Translations/AdminTranslations.php:475
+msgid "Choose the URL that we will show your customers when they finish their purchase."
+msgstr "Elige la URL que mostraremos a tus clientes cuando terminen su compra."
+
+#: src/Translations/AdminTranslations.php:467
+msgid "Define what payment experience your customers will have, whether inside or outside your store."
+msgstr "Define qué experiencia de pago tendrán tus clientes, si dentro o fuera de tu tienda."
+
+#: src/Translations/AdminTranslations.php:1012
+msgid "Payment refunded"
+msgstr "Pago reembolsado"
+
+#: src/Translations/StoreTranslations.php:134
+#: src/Translations/StoreTranslations.php:255
+msgid "Cancel &amp; Clear Cart"
+msgstr "Cancelar y vaciar el carrito"
+
+#: src/Translations/StoreTranslations.php:354
+msgid "See your order form"
+msgstr "Ver tu formulario de pedido"
+
+#: src/Translations/StoreTranslations.php:371
+msgid "Payment cannot process the selected fee."
+msgstr "El pago no puede procesar la cuota seleccionada."
+
+#: src/Translations/StoreTranslations.php:369
+msgid "Your payment was declined. Please select another payment method. It is recommended in cash."
+msgstr "Tu pago ha sido rechazado. Por favor, selecciona otro método de pago. Se recomienda en efectivo."
+
+#: src/Translations/StoreTranslations.php:368
+msgid "You have already made a payment of this amount. If you have to pay again, use another card or other method of payment."
+msgstr "Ya has hecho un pago de este importe. Si tienes que volver a pagar, usa otra tarjeta u otro método de pago."
+
+#: src/Translations/StoreTranslations.php:364
+#: src/Translations/StoreTranslations.php:365
+msgid "Your payment cannot be processed."
+msgstr "No se puede procesar tu pago."
+
+#: src/Translations/StoreTranslations.php:363
+msgid "Check the informed security code."
+msgstr "Comprueba el código de seguridad informado."
+
+#: src/Translations/StoreTranslations.php:362
+msgid "Check the information provided."
+msgstr "Comprueba la información facilitada."
+
+#: src/Translations/StoreTranslations.php:359
+msgid "We are processing your payment. In less than 2 days we will send you by email if the payment has been approved or if additional information is needed."
+msgstr "Estamos procesando tu pago. En menos de 2 días te enviaremos por correo electrónico si el pago ha sido aprobado o si se necesita información adicional."
+
+#: src/Translations/StoreTranslations.php:358
+msgid "We are processing your payment. In less than an hour we will send you the result by email."
+msgstr "Estamos procesando tu pago. En menos de una hora te enviaremos el resultado por correo electrónico."
+
+#: src/Translations/AdminTranslations.php:670
+msgid "Advanced configuration of the personalized payment experience"
+msgstr "Configuración avanzada de la experiencia de pago personalizada"
+
+#: src/Translations/StoreTranslations.php:337
+msgid "To print the ticket again click"
+msgstr "Haz clic para imprimir de nuevo el tique"
+
+#: src/Translations/AdminTranslations.php:183
+#: src/Translations/AdminTranslations.php:733
+msgid "Payment methods"
+msgstr "Métodos de pago"
+
+#: src/Translations/AdminTranslations.php:736
+msgid "All payment methods"
+msgstr "Todos los métodos de pago"
+
+#: src/Translations/AdminTranslations.php:726
+msgid "In how many days will cash payments expire."
+msgstr "En cuántos días caducarán los pagos en efectivo."
+
+#: src/Translations/AdminTranslations.php:725
+msgid "Payment Due"
+msgstr "Vencimiento del pago"
+
+#: src/Translations/AdminTranslations.php:730
+msgid "Activates inventory reduction during the creation of an order, whether or not the final payment is credited. Disable this option to reduce it only when payments are approved."
+msgstr "Activa la reducción del inventario durante la creación de un pedido, se acredite o no el pago final. Desactiva esta opción para reducirlo solo cuando los pagos estén aprobados."
+
+#: src/Translations/AdminTranslations.php:729
+msgid "Reduce inventory"
+msgstr "Reducir inventario"
+
+#: src/Translations/AdminTranslations.php:727
+msgid "Advanced configuration of the cash payment experience"
+msgstr "Configuración avanzada de la experiencia de pago en efectivo"
+
+#: src/Translations/AdminTranslations.php:489
+#: src/Translations/AdminTranslations.php:580
+#: src/Translations/AdminTranslations.php:680
+#: src/Translations/AdminTranslations.php:741
+#: src/Translations/AdminTranslations.php:829
+msgid "Choose an additional percentage value that you want to charge as commission to your customers for paying with Mercado Pago."
+msgstr "Elige un valor porcentual adicional que quieras cobrar como comisión a tus clientes por pagar con Mercado Pago."
+
+#: src/Translations/AdminTranslations.php:486
+#: src/Translations/AdminTranslations.php:577
+#: src/Translations/AdminTranslations.php:677
+#: src/Translations/AdminTranslations.php:738
+#: src/Translations/AdminTranslations.php:826
+msgid "Choose a percentage value that you want to discount your customers for paying with Mercado Pago."
+msgstr "Elige un valor porcentual que quieras descontar a tus clientes por pagar con Mercado Pago."
+
+#: src/Translations/AdminTranslations.php:465
+#: src/Translations/AdminTranslations.php:575
+#: src/Translations/AdminTranslations.php:671
+#: src/Translations/AdminTranslations.php:728
+#: src/Translations/AdminTranslations.php:824
+msgid "Edit these advanced fields only when you want to modify the preset values."
+msgstr "Edita estos campos avanzados solo cuando quieras modificar los valores preestablecidos."
+
+#: src/Translations/AdminTranslations.php:452
+msgid "What is the maximum quota with which a customer can buy?"
+msgstr "¿Cuál es el máximo de cuotas con las que un cliente puede comprar?"
+
+#: src/Translations/AdminTranslations.php:464
+#: src/Translations/AdminTranslations.php:574
+msgid "Advanced settings"
+msgstr "Ajustes avanzados"
+
+#: src/Translations/AdminTranslations.php:278
+msgid "Production credentials"
+msgstr "Credenciales de producción"
+
+#: src/Translations/AdminTranslations.php:883
+msgid "Test Mode"
+msgstr "Modo de prueba"
+
+#: src/Translations/AdminTranslations.php:899
+msgid "Save changes"
+msgstr "Guardar cambios"
+
+#: src/Translations/StoreTranslations.php:227
+#: src/Translations/StoreTranslations.php:229
+msgid "Select the number of installments"
+msgstr "Selecciona la cantidad de cuotas"
+
+#: src/Translations/StoreTranslations.php:217
+msgid "Card number"
+msgstr "Número de la tarjeta"
+
+#: src/Translations/StoreTranslations.php:211
+#: src/Translations/StoreTranslations.php:215
+msgid "See current promotions"
+msgstr "Ver promociones vigentes"
+
+#: src/Translations/StoreTranslations.php:214
+msgid "Debit cards"
+msgstr "Tarjetas de débito "
+
+#: src/Translations/StoreTranslations.php:212
+msgid "Credit cards"
+msgstr "Tarjetas de crédito"
+
+#. Description of the plugin
+msgid "Configure the payment options and accept payments with cards, ticket and money of Mercado Pago account."
+msgstr "Configura las opciones de pago a tu medida y acepta pagos con tarjetas, dinero en efectivo y dinero en cuenta de Mercado Pago."
+
+#: src/Translations/AdminTranslations.php:469
+msgid "Modal"
+msgstr "Emergente"
+
+#: src/Translations/StoreTranslations.php:92
+msgid "fee of"
+msgstr "comisión de"
+
+#. Plugin URI of the plugin
+msgid "https://github.com/mercadopago/cart-woocommerce"
+msgstr "https://github.com/mercadopago/cart-woocommerce"
+
+#: src/Translations/AdminTranslations.php:196
+msgid "Cancel order"
+msgstr "Cancelar el pedido"
+
+#: src/Translations/StoreTranslations.php:228
+#: src/Translations/StoreTranslations.php:233
+msgid "Issuer"
+msgstr "Banco"
+
+#: src/Translations/StoreTranslations.php:223
+msgid "Security Code"
+msgstr "Código de seguridad"
+
+#: src/Translations/StoreTranslations.php:303
+msgid "Waiting for the ticket payment."
+msgstr "Esperando el pago del tique."
+
+#: src/Translations/StoreTranslations.php:352
+msgid "A problem was occurred when processing your payment. Please, try again."
+msgstr "Ha ocurrido un problema al procesar tu pago. Por favor, inténtalo de nuevo."
+
+#: src/Translations/StoreTranslations.php:338
+msgid "here"
+msgstr "aquí"
+
+#: src/Translations/StoreTranslations.php:373
+msgid "This payment method cannot process your payment."
+msgstr "Este método de pago no puede procesar tu pago."
+
+#: src/Translations/StoreTranslations.php:372
+msgid "You have reached the limit of allowed attempts. Choose another card or other payment method."
+msgstr "Has alcanzado el límite de intentos permitidos. Elige otra tarjeta u otro método de pago."
+
+#: src/Translations/StoreTranslations.php:370
+msgid "Your payment does not have sufficient funds."
+msgstr "Tu pago no tiene fondos suficientes."
+
+#: src/Translations/StoreTranslations.php:367
+msgid "Contact your card issuer to activate it. The phone is on the back of your card."
+msgstr "Contacta con el emisor de tu tarjeta para activarla. El teléfono está en la parte posterior de tu tarjeta."
+
+#: src/Translations/StoreTranslations.php:366
+msgid "You must authorize payments for your orders."
+msgstr "Debes autorizar los pagos de tus pedidos."
+
+#: src/Translations/StoreTranslations.php:361
+msgid "Check the expiration date."
+msgstr "Comprueba la fecha de caducidad."
+
+#: src/Translations/StoreTranslations.php:360
+msgid "Check the card number."
+msgstr "Comprueba el número de tarjeta."
+
+#: src/Translations/StoreTranslations.php:95
+msgid "Discount provided by store"
+msgstr "Descuento proporcionado por la tienda"
+
+#: src/Translations/StoreTranslations.php:353
+msgid "A problem was occurred when processing your payment. Are you sure you have correctly filled all information in the checkout form?"
+msgstr "Ha ocurrido un problema al procesar tu pago. ¿Seguro que has rellenado correctamente toda la información en el formulario de pago?"
+
+#: src/Translations/StoreTranslations.php:355
+msgid "Your payment was declined. You can try again."
+msgstr "Tu pago ha sido rechazado. Puedes intentarlo de nuevo."
+
+#: src/Translations/StoreTranslations.php:307
+msgid "Payment was returned to the customer."
+msgstr "El pago fue devuelto al cliente."
+
+#: src/Translations/StoreTranslations.php:306
+msgid "Payment was declined. The customer can try again."
+msgstr "El pago ha sido rechazado. El cliente puede intentarlo de nuevo."
+
+#: src/Translations/StoreTranslations.php:301
+msgid "Payment approved."
+msgstr "Pago aprobado."
+
+#: src/Translations/StoreTranslations.php:91
+msgid "discount of"
+msgstr "descuento de"
+
+#: src/Translations/StoreTranslations.php:94
+msgid "Shipping service used by the store."
+msgstr "Servicio de envío utilizado por la tienda."
+
+#: src/Translations/AdminTranslations.php:454
+msgid "2 installments"
+msgstr "2 cuotas"
+
+#: src/Translations/AdminTranslations.php:462
+msgid "18 installments"
+msgstr "18 cuotas"
+
+#: src/Translations/AdminTranslations.php:461
+msgid "15 installments"
+msgstr "15 cuotas"
+
+#: src/Translations/AdminTranslations.php:460
+msgid "12 installments"
+msgstr "12 cuotas"
+
+#: src/Translations/AdminTranslations.php:459
+msgid "10 installments"
+msgstr "10 cuotas"
+
+#: src/Translations/AdminTranslations.php:458
+msgid "6 installments"
+msgstr "6 cuotas"
+
+#: src/Translations/AdminTranslations.php:457
+msgid "5 installments"
+msgstr "5 cuotas"
+
+#: src/Translations/AdminTranslations.php:456
+msgid "4 installments"
+msgstr "4 cuotas"
+
+#: src/Translations/AdminTranslations.php:455
+msgid "3 installments"
+msgstr "3 cuotas"
+
+#: src/Translations/AdminTranslations.php:463
+msgid "24 installments"
+msgstr "24 cuotas"
+
+#: src/Translations/AdminTranslations.php:453
+msgid "1 installment"
+msgstr "1 cuota"
+
+#: src/Translations/StoreTranslations.php:251
+msgid "Cost of installments"
+msgstr "Coste del plan de pagos"
+
+#: src/Translations/AdminTranslations.php:474
+msgid "Success URL"
+msgstr "URL de éxito"
+
+#: src/Translations/AdminTranslations.php:360
+msgid "Settings"
+msgstr "Configurar"
+
+#: src/Translations/StoreTranslations.php:356
+msgid "Click to try again"
+msgstr "Haga clic para intentarlo de nuevo"
+
+#: src/Translations/AdminTranslations.php:468
+msgid "Redirect"
+msgstr "Redirigir"
+
+#: src/Translations/StoreTranslations.php:133
+#: src/Translations/StoreTranslations.php:209
+#: src/Translations/StoreTranslations.php:254
+msgid "Pay with Mercado Pago"
+msgstr "Pagar con Mercado Pago"
+
+#. Author of the plugin
+#: src/Translations/StoreTranslations.php:184
+msgid "Mercado Pago"
+msgstr "Mercado Pago"

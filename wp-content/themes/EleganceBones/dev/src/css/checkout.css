@@ -6,7 +6,7 @@
   .checkout {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 0;
+    margin-top: 2rem;
   }
   .checkout .checkout-col-1 {
     flex: 0 0 calc(60% - 15px); /* 60% con un margen derecho de 10px */
@@ -52,6 +52,7 @@ label abbr {
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
+  border: 1px solid var(--gris);
 }
 
 .select2-selection__rendered {
@@ -81,8 +82,11 @@ label abbr {
   left: 0;
 }
 
-.select2-container {
-  transform: translateY(-12px);
+/* Buscador de paises input*/
+.select2-search__field {
+  border: 1px solid var(--gris) !important;
+  padding: 1rem 2rem !important;
+  font-size: 1.5rem !important;
 }
 
 .select2-container--default.select2-container--open.select2-container--below
@@ -133,7 +137,7 @@ label abbr {
   align-items: center;
 }
 
-.resumen tbody tr{
+.resumen tbody tr {
   margin: 1rem 0;
 }
 

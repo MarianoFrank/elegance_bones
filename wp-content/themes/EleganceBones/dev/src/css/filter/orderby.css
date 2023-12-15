@@ -15,7 +15,7 @@
   border: none;
   display: flex;
   gap: 5rem;
-  box-shadow: var(--shadow-1);
+  
   align-items: center;
   border-radius: var(--radius);
   border: 1px solid var(--gris);
@@ -24,7 +24,7 @@
 .custom-selected-options {
   display: none;
   position: absolute;
-  box-shadow: var(--shadow-1);
+  
   list-style: none;
   padding: 1rem 0.2rem;
   margin: 0;

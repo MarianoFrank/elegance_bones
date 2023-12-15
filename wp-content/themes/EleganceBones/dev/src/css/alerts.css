@@ -1,14 +1,16 @@
 .woocommerce-info,
-.woocommerce-message {
+.woocommerce-message,
+.woocommerce-error {
   border: none;
   border-radius: var(--radius);
   display: inline-block;
   vertical-align: middle;
   width: 100%;
+  padding: 2rem;
 }
 
 .woocommerce-form-coupon-toggle .woocommerce-info {
-    margin: 0;
+  margin: 0;
 }
 
 /* Info */
@@ -16,6 +18,8 @@
   background-color: var(--azul-50);
   color: var(--azul-800);
 }
+
+
 
 .woocommerce-info::before {
   content: "\f05a";
@@ -26,8 +30,14 @@
 }
 
 .woocommerce-info a {
-  color: var(--azul-900);
+  color: var(--azul-900) !important;
   font-weight: bold;
+  cursor: pointer;
+  padding: 0 !important;
+}
+
+.woocommerce-info a:hover{
+    background-color: transparent !important;
 }
 
 /* Message */
@@ -35,6 +45,7 @@
 .woocommerce-message {
   background-color: var(--verde-50);
   color: var(--verde-800);
+  margin: 1rem 0;
 }
 
 .woocommerce-message::before {
@@ -49,4 +60,41 @@
 .woocommerce-message a {
   color: var(--verde-900);
   font-weight: bold;
+  background-color: transparent;
+  padding: 0;
+}
+
+.woocommerce-message a:hover {
+  background-color: transparent !important;
+}
+
+/* Error */
+.woocommerce-error {
+  background-color: var(--rojo-50);
+  color: var(--rojo-800);
+  margin: 1rem 0;
+}
+
+.woocommerce-error::before {
+  content: "\f071";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 1.5rem;
+  display: inline-block;
+  color: var(--rojo-800);
+}
+
+.woocommerce-error li{
+    color: var(--rojo-800);
+}
+
+.woocommerce-error a {
+  color: var(--rojo-900);
+  font-weight: bold;
+  background-color: transparent;
+  padding: 0;
+}
+
+.woocommerce-error a:hover {
+  background-color: transparent;
 }
