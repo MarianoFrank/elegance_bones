@@ -13,8 +13,11 @@ html {
 body {
   font-family: "Inter", sans-serif;
   font-weight: 400;
-  background: var(--blanco);
+  background: rgb(255 255 255 / 0.9);
   color: var(--text-color);
+  min-height: 100vh;
+  position: relative;
+  z-index: 1;
 }
 
 .container,
@@ -67,7 +70,7 @@ th {
   text-decoration: none;
 }
 
-a{
+a {
   font-weight: bold;
 }
 
@@ -79,7 +82,8 @@ h5,
 th,
 strong span,
 bdi,
-span ,label{
+span,
+label {
   color: var(--title-color);
 }
 
@@ -128,10 +132,14 @@ label {
   margin: 0;
 }
 
-ul{
+ul {
   list-style: none;
+  padding: 0;
 }
 
-span,li,ul,a{
+span,
+li,
+ul,
+a {
   line-height: normal !important;
 }

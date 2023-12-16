@@ -19,6 +19,7 @@ add_filter('woocommerce_enqueue_styles', '__return_empty_array');
 
 require get_template_directory() . "/includes/widgets.php";
 require get_template_directory() . "/includes/queries.php";
+require get_template_directory() . "/includes/shortcode.php";
 //Woocommerce cambios en los hooks
 require get_template_directory() . "/includes/woocommerce-hooks-modify.php";
 
@@ -33,18 +34,22 @@ function debuguear($valor)
 function menus()
 {
     register_nav_menus([
-        "menu-principal" => __("Menu principal", "gymfitness"),
+        "menu-principal" => __("Menu principal"),
+    ]);
+    register_nav_menus([
+        "menu-sociales" => __("Menu Sociales"),
     ]);
 }
-add_action("init", "menus");
+add_action('after_setup_theme', 'menus');
 
 function scriptsAndStyles()
 {   //css
-    wp_enqueue_style("font-awesome", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css", [], "6.5.1");
+    wp_enqueue_style("animatecss", "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css", [], "8.0.1");
+    wp_enqueue_style("fontawesome", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css", [], "8.0.1");
     wp_enqueue_style("normalize", "https://necolas.github.io/normalize.css/8.0.1/normalize.css", [], "8.0.1");
     //wp_enqueue_style("tailwind", get_stylesheet_uri(), ["normalize"], "1.0.0");
     wp_enqueue_style("style", get_stylesheet_uri(), [
-        "normalize", "font-awesome",
+        "normalize", "animatecss", "fontawesome"
         //,"tailwind"
     ], "1.0.0");
 
@@ -52,11 +57,13 @@ function scriptsAndStyles()
     //js
     if (is_page("inicio")) {
         wp_enqueue_script("index", get_template_directory_uri() . '/js/index.min.js', [], "1.0.0", true);
+        wp_enqueue_script("swiper", get_template_directory_uri() . '/js/swiper.min.js', [], "1.0.0", true);
+        wp_enqueue_script("aos", get_template_directory_uri() . '/js/aos.min.js', [], "1.0.0", true);
     }
     if (is_shop() || is_product_category()) {
         wp_enqueue_script("orderby", get_template_directory_uri() . '/js/orderby.min.js', [], "1.0.0", true);
     }
-    if (is_product() || is_shop()) {
+    if (is_product() || is_shop() || is_page("inicio")) {
         wp_enqueue_script("starsRating", get_template_directory_uri() . '/js/starsRating.min.js', [], "1.0.0", true);
     }
     wp_enqueue_script("miniCart", get_template_directory_uri() . '/js/miniCart.min.js', [], "1.0.0", true);

@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const rating = parseFloat(
       contenedorRating.querySelector(".rating").textContent
     );
-    console.log(rating);
+
     // Limpiar el contenido actual
     contenedorRating.innerHTML = "";
 
@@ -69,7 +69,9 @@ document.addEventListener("DOMContentLoaded", function () {
   const estrellas = document.querySelectorAll(".stars-selector i");
   const estrellasContainer = document.querySelector(".stars-selector");
 
-  estrellasContainer.addEventListener("mouseleave", handleMouseLeave);
+  if (estrellasContainer) {
+    estrellasContainer.addEventListener("mouseleave", handleMouseLeave);
+  }
 
   estrellas.forEach((estrella) => {
     estrella.addEventListener("mouseenter", handleMouseEnter);

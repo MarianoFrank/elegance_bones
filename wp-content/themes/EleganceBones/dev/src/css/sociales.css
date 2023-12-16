@@ -1,0 +1,46 @@
+.menu-sociales {
+  display: flex;
+  list-style: none;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  gap: 3rem;
+  
+}
+
+.menu-sociales a {
+  border: none !important;
+  font-family: "FontAwesome";
+  font-weight: 400;
+  font-size: 2rem;
+}
+.menu-sociales .screen-reader-text {
+  display: none;
+}
+.menu-sociales a[href*="instagram"]::before {
+  content: "\f16d";
+  background: linear-gradient(
+    90deg,
+    #405de6,
+    #5851db,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #fd1d1d,
+    #f56040,
+    #f77737,
+    #fcaf45
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.menu-sociales a[href*="facebook"]::before {
+  content: "\f39e";
+  color: #1877f2;
+}
+
+.menu-sociales a[href*="whatsapp"]::before {
+  content: "\f232";
+  color: #25d366;
+}

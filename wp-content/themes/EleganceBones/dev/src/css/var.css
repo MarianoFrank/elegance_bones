@@ -1,13 +1,13 @@
 :root {
-  --primario: #0f172a;
+  --primario: #061a46;
   --primario-hover: #334155;
   --negro: #000;
   --blanco: #fff;
   --gris: #e2e8f0;
   --blanco-secundario: #f9fafb;
 
-  --text-color: #718096;
-  --title-color: #374151;
+  --text-color: #051020;
+  --title-color: #020710;
 
   /* Colore de alertas y mensajes */
   --azul-50: #eff6ff;
@@ -29,4 +29,9 @@
 
   --shadow-1: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
   --input-shadow: 0 0 0 1px var(--gris) inset;
+
+  --animate-duration: 1.5s;
+  --animate-delay: 0.9s;
+
+  --fuente-headings: "Alfa Slab One", serif;
 }

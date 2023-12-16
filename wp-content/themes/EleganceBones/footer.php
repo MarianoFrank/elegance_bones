@@ -1,3 +1,7 @@
+<!-- Cierro el div del grid de la pagina principal -->
+<?php if (is_front_page()) : ?>
+    </div>
+<?php endif; ?>
 <footer class="footer contenedor">
 
     <div class="contenido-footer">

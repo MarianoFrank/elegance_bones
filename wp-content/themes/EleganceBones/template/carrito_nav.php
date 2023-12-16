@@ -22,11 +22,7 @@ if (class_exists('WooCommerce')) {
     </div>
 
     <div class="icono_carrito">
-        <div>
-            <p class="margin-0">Carrito</p>
-            <i class="fa-solid fa-cart-shopping"></i>
-        </div>
-
+        <i class="fa-solid fa-cart-shopping"></i>
         <div class="carrito-count"><?php echo $cart_item_count; ?></div>
     </div></a>
 </div>

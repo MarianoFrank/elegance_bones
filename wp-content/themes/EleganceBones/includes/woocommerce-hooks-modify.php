@@ -124,9 +124,10 @@ add_filter('woocommerce_single_product_summary', 'descripcion_single_product', 7
 
 
 //Quitamos el resumen para ponerlo en otro lugar
-remove_action( 'woocommerce_checkout_order_review', 'woocommerce_order_review', 10 );
-add_action( 'woocommerce_checkout_after_order_review', 'woocommerce_order_review', 0 );
+remove_action('woocommerce_checkout_order_review', 'woocommerce_order_review', 10);
+add_action('woocommerce_checkout_after_order_review', 'woocommerce_order_review', 0);
 
 //Cambio de lugar los productos cruzados
 remove_action('woocommerce_cart_collaterals', 'woocommerce_cross_sell_display', 10);
 add_action('woocommerce_after_cart', 'woocommerce_cross_sell_display');
+

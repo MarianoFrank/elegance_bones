@@ -1,0 +1,91 @@
+2023-12-16T02:11:32+00:00 CRITICAL syntax error, unexpected identifier "wc_get_template_part" en C:\laragon\www\WPelegancebones\wp-content\themes\EleganceBones\includes\queries.php en la línea 32
+
+2023-12-16T02:13:33+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in C:\laragon\www\WPelegancebones\wp-content\plugins\woocommerce\templates\loop\sale-flash.php:25
+Stack trace:
+#0 C:\laragon\www\WPelegancebones\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\laragon\www\WPelegancebones\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1427): wc_get_template('loop/sale-flash...')
+#2 C:\laragon\www\WPelegancebones\wp-includes\class-wp-hook.php(324): woocommerce_show_product_loop_sale_flash('')
+#3 C:\laragon\www\WPelegancebones\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 C:\laragon\www\WPelegancebones\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\laragon\www\WPelegancebones\wp-content\themes\EleganceBones\template\productos-inicio.php(36): do_action('woocommerce_bef...')
+#6 C:\laragon\www\WPelegancebones\wp-includes\template.php(792): require('C:\\laragon\\www\\...')
+#7 C:\laragon\www\WPelegancebones\wp-includes\template.php(725): load_template('C:\\laragon\\www\\...', false, Array)
+#8 C:\laragon\www\WPelegancebones\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#9 C:\laragon\www\WPelegancebones\wp-content\themes\EleganceBones\includes\queries.php(31): get_template_part('template/produc...')
+#10 C:\laragon\www\WPelegancebones\wp-content\themes\EleganceBones\template-inicio.php(17): productos_en_oferta()
+#11 C:\laragon\www\WPelegancebones\wp-includes\template-loader.php(106): include('C:\\laragon\\www\\...')
+#12 C:\laragon\www\WPelegancebones\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#13 C:\laragon\www\WPelegancebones\index.php(17): require('C:\\laragon\\www\\...')
+#14 {main}
+  thrown en C:\laragon\www\WPelegancebones\wp-content\plugins\woocommerce\templates\loop\sale-flash.php en la línea 25
+
+2023-12-16T02:14:24+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in C:\laragon\www\WPelegancebones\wp-content\plugins\woocommerce\templates\loop\sale-flash.php:25
+Stack trace:
+#0 C:\laragon\www\WPelegancebones\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\laragon\www\WPelegancebones\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1427): wc_get_template('loop/sale-flash...')
+#2 C:\laragon\www\WPelegancebones\wp-includes\class-wp-hook.php(324): woocommerce_show_product_loop_sale_flash('')
+#3 C:\laragon\www\WPelegancebones\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 C:\laragon\www\WPelegancebones\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\laragon\www\WPelegancebones\wp-content\themes\EleganceBones\template\productos-inicio.php(36): do_action('woocommerce_bef...')
+#6 C:\laragon\www\WPelegancebones\wp-includes\template.php(792): require('C:\\laragon\\www\\...')
+#7 C:\laragon\www\WPelegancebones\wp-includes\template.php(725): load_template('C:\\laragon\\www\\...', false, Array)
+#8 C:\laragon\www\WPelegancebones\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#9 C:\laragon\www\WPelegancebones\wp-content\themes\EleganceBones\includes\queries.php(31): get_template_part('template/produc...')
+#10 C:\laragon\www\WPelegancebones\wp-content\themes\EleganceBones\template-inicio.php(17): productos_en_oferta()
+#11 C:\laragon\www\WPelegancebones\wp-includes\template-loader.php(106): include('C:\\laragon\\www\\...')
+#12 C:\laragon\www\WPelegancebones\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#13 C:\laragon\www\WPelegancebones\index.php(17): require('C:\\laragon\\www\\...')
+#14 {main}
+  thrown en C:\laragon\www\WPelegancebones\wp-content\plugins\woocommerce\templates\loop\sale-flash.php en la línea 25
+
+2023-12-16T02:20:11+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in C:\laragon\www\WPelegancebones\wp-content\plugins\woocommerce\templates\loop\sale-flash.php:25
+Stack trace:
+#0 C:\laragon\www\WPelegancebones\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\laragon\www\WPelegancebones\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1427): wc_get_template('loop/sale-flash...')
+#2 C:\laragon\www\WPelegancebones\wp-includes\class-wp-hook.php(324): woocommerce_show_product_loop_sale_flash('')
+#3 C:\laragon\www\WPelegancebones\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 C:\laragon\www\WPelegancebones\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\laragon\www\WPelegancebones\wp-content\themes\EleganceBones\includes\queries.php(40): do_action('woocommerce_bef...')
+#6 C:\laragon\www\WPelegancebones\wp-content\themes\EleganceBones\template-inicio.php(17): productos_en_oferta()
+#7 C:\laragon\www\WPelegancebones\wp-includes\template-loader.php(106): include('C:\\laragon\\www\\...')
+#8 C:\laragon\www\WPelegancebones\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#9 C:\laragon\www\WPelegancebones\index.php(17): require('C:\\laragon\\www\\...')
+#10 {main}
+  thrown en C:\laragon\www\WPelegancebones\wp-content\plugins\woocommerce\templates\loop\sale-flash.php en la línea 25
+
+2023-12-16T02:23:16+00:00 CRITICAL Uncaught Error: Call to undefined function productos_en_oferta() in C:\laragon\www\WPelegancebones\wp-content\themes\EleganceBones\template-inicio.php:17
+Stack trace:
+#0 C:\laragon\www\WPelegancebones\wp-includes\template-loader.php(106): include()
+#1 C:\laragon\www\WPelegancebones\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\WPelegancebones\index.php(17): require('C:\\laragon\\www\\...')
+#3 {main}
+  thrown en C:\laragon\www\WPelegancebones\wp-content\themes\EleganceBones\template-inicio.php en la línea 17
+
+2023-12-16T02:30:51+00:00 CRITICAL Uncaught Error: Call to undefined function productos_en_oferta() in C:\laragon\www\WPelegancebones\wp-content\themes\EleganceBones\template-inicio.php:17
+Stack trace:
+#0 C:\laragon\www\WPelegancebones\wp-includes\template-loader.php(106): include()
+#1 C:\laragon\www\WPelegancebones\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\WPelegancebones\index.php(17): require('C:\\laragon\\www\\...')
+#3 {main}
+  thrown en C:\laragon\www\WPelegancebones\wp-content\themes\EleganceBones\template-inicio.php en la línea 17
+
+2023-12-16T14:37:36+00:00 CRITICAL Uncaught Error: Call to undefined function productos_en_oferta() in C:\laragon\www\WPelegancebones\wp-content\themes\EleganceBones\template-inicio.php:17
+Stack trace:
+#0 C:\laragon\www\WPelegancebones\wp-includes\template-loader.php(106): include()
+#1 C:\laragon\www\WPelegancebones\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\WPelegancebones\index.php(17): require('C:\\laragon\\www\\...')
+#3 {main}
+  thrown en C:\laragon\www\WPelegancebones\wp-content\themes\EleganceBones\template-inicio.php en la línea 17
+
+2023-12-16T15:12:45+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on int in C:\laragon\www\WPelegancebones\wp-content\themes\EleganceBones\includes\queries.php:57
+Stack trace:
+#0 C:\laragon\www\WPelegancebones\wp-content\themes\EleganceBones\includes\queries.php(7): productos_por_oferta()
+#1 C:\laragon\www\WPelegancebones\wp-content\themes\EleganceBones\template-inicio.php(15): mostrar_productos_homepage()
+#2 C:\laragon\www\WPelegancebones\wp-includes\template-loader.php(106): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\WPelegancebones\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\WPelegancebones\index.php(17): require('C:\\laragon\\www\\...')
+#5 {main}
+  thrown en C:\laragon\www\WPelegancebones\wp-content\themes\EleganceBones\includes\queries.php en la línea 57
+
+2023-12-16T19:07:32+00:00 CRITICAL syntax error, unexpected token ";", expecting "{" en C:\laragon\www\WPelegancebones\wp-content\themes\EleganceBones\includes\shortcode.php en la línea 86
+

@@ -30,6 +30,8 @@
   },
   "type": "module",
   "dependencies": {
-    "flowbite": "^2.2.0"
+    "aos": "^3.0.0-beta.6",
+    "flowbite": "^2.2.0",
+    "swiper": "^11.0.5"
   }
 }
