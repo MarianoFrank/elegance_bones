@@ -1,0 +1,30 @@
+/* Mensaje de descuento superior */
+.mensaje-descuento-container {
+  width: 100%;
+  height: 4.2rem;
+  background-color: var(--negro);
+  overflow: hidden;
+}
+
+.mensajes-descuento {
+  display: flex;
+  white-space: nowrap;
+  gap: 20%;
+  will-change: transform;
+  animation: desplazar 25s linear infinite;;
+  width: 100%;
+}
+
+.mensaje-descuento {
+  color: var(--blanco);
+  padding: 1.2rem 0;
+}
+
+@keyframes desplazar {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-98%);
+  }
+}

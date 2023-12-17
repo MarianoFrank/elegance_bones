@@ -31,13 +31,7 @@ header .menu-principal a {
   height: auto;
 }
 
-/* Mensaje de descuento superior */
-.mensaje-descuento {
-  background-color: var(--negro);
-  color: var(--blanco);
-  text-align: center;
-  padding: 1rem 0;
-}
+
 
 /* Navegacion de paginas de woocommerce */
 .woocommerce-breadcrumb {
@@ -60,6 +54,6 @@ header .menu-principal a {
   border-bottom: 1px solid var(--negro);
 }
 
-.breadcrumb-separator{
-    display: none;
+.breadcrumb-separator {
+  display: none;
 }

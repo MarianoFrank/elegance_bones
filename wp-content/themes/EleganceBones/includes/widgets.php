@@ -18,11 +18,17 @@ class Widget_Mensaje_Descuento extends WP_Widget
     // Formulario de configuración del widget
     public function form($instance)
     {
-        $mensaje_descuento = !empty($instance['mensaje_descuento']) ? $instance['mensaje_descuento'] : '';
+        $mensaje_descuento_1 = !empty($instance['mensaje_descuento_1']) ? $instance['mensaje_descuento_1'] : '';
+        $mensaje_descuento_2 = !empty($instance['mensaje_descuento_2']) ? $instance['mensaje_descuento_2'] : '';
+
 ?>
         <p>
-            <label for="<?php echo $this->get_field_id('mensaje_descuento'); ?>">Mensaje de Descuento:</label>
-            <input class="widefat" id="<?php echo $this->get_field_id('mensaje_descuento'); ?>" name="<?php echo $this->get_field_name('mensaje_descuento'); ?>" type="text" value="<?php echo esc_attr($mensaje_descuento); ?>" />
+            <label for="<?php echo $this->get_field_id('mensaje_descuento_1'); ?>">Mensaje de Descuento 1:</label>
+            <input class="widefat" id="<?php echo $this->get_field_id('mensaje_descuento_1'); ?>" name="<?php echo $this->get_field_name('mensaje_descuento_1'); ?>" type="text" value="<?php echo esc_attr($mensaje_descuento_1); ?>" />
+        </p>
+        <p>
+            <label for="<?php echo $this->get_field_id('mensaje_descuento_2'); ?>">Mensaje de Descuento 2:</label>
+            <input class="widefat" id="<?php echo $this->get_field_id('mensaje_descuento_2'); ?>" name="<?php echo $this->get_field_name('mensaje_descuento_2'); ?>" type="text" value="<?php echo esc_attr($mensaje_descuento_2); ?>" />
         </p>
 <?php
     }
@@ -31,7 +37,8 @@ class Widget_Mensaje_Descuento extends WP_Widget
     public function update($new_instance, $old_instance)
     {
         $instance = array();
-        $instance['mensaje_descuento'] = (!empty($new_instance['mensaje_descuento'])) ? sanitize_text_field($new_instance['mensaje_descuento']) : '';
+        $instance['mensaje_descuento_1'] = (!empty($new_instance['mensaje_descuento_1'])) ? sanitize_text_field($new_instance['mensaje_descuento_1']) : '';
+        $instance['mensaje_descuento_2'] = (!empty($new_instance['mensaje_descuento_2'])) ? sanitize_text_field($new_instance['mensaje_descuento_2']) : '';
 
         return $instance;
     }
@@ -39,8 +46,11 @@ class Widget_Mensaje_Descuento extends WP_Widget
     // Muestra el widget en el sitio
     public function widget($args, $instance)
     {
-        $mensaje_descuento = !empty($instance['mensaje_descuento']) ? $instance['mensaje_descuento'] : '';
-        echo '<div class="mensaje-descuento">' . esc_html($mensaje_descuento) . '</div>';
+        $mensaje_descuento_1 = !empty($instance['mensaje_descuento_1']) ? $instance['mensaje_descuento_1'] : '';
+        $mensaje_descuento_2 = !empty($instance['mensaje_descuento_2']) ? $instance['mensaje_descuento_2'] : '';
+
+        echo '<div class="mensaje-descuento">' . esc_html($mensaje_descuento_1) . '</div>';
+        echo '<div class="mensaje-descuento">' . esc_html($mensaje_descuento_2) . '</div>';
     }
 }
 

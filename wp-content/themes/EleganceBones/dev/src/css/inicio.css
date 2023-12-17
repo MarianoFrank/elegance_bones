@@ -1,5 +1,5 @@
 .copy_bienvenida {
-  margin: 3rem auto;
+  margin: 0 auto;
   width: 80%;
 }
 
@@ -75,7 +75,7 @@
 .home .grid-inicio {
   display: grid;
   grid-template-columns: 1fr 1.8fr;
-  justify-content: space-between;
+  border-bottom: 1px solid var(--gris);
 }
 
 .home .grid-inicio .imagen-destacada {
@@ -107,17 +107,21 @@
 
 /* Fondo */
 
+.home .gradient {
+  height: 100%;
+}
+
 .gradient {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
   object-fit: cover;
   pointer-events: none;
   z-index: -1;
   filter: blur(1px);
   transform: rotate(180deg);
+  mask-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 }
 
 /* Secciones */
@@ -182,8 +186,9 @@
   object-fit: contain;
 }
 
-.imagen_publicidad_principal,.imagen_publicidad{
+.imagen_publicidad_principal,
+.imagen_publicidad {
   margin-top: 3rem;
   border-radius: var(--radius);
- width: fit-content;
+  width: fit-content;
 }

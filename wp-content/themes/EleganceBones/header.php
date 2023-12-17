@@ -10,17 +10,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Inter:wght@400;700&display=swap" rel="stylesheet">
-
+</head>
 
 <body class="<?php echo is_front_page() ? "home" : ""; ?>">
 
-
-
-    <!-- <?php if (is_active_sidebar('sidebar_descuento')) {
-                dynamic_sidebar('sidebar_descuento');
-            } ?> -->
-
-    <?php if (is_front_page()) : ?>
+    <?php if (is_active_sidebar('sidebar_descuento')) : ?>
+        <div class="mensaje-descuento-container">
+            <div class="mensajes-descuento">
+            <?php dynamic_sidebar('sidebar_descuento'); ?>
+            <?php dynamic_sidebar('sidebar_descuento'); ?>
+            </div>
+           
+        </div>
+    <?php
+    endif;
+    if (is_front_page()) : ?>
         <div class="grid-inicio">
         <?php
         if (has_post_thumbnail()) {
@@ -32,12 +36,11 @@
 
         <?php if (is_front_page()) : ?>
             <div class="contenedor-inicio ">
-            <?php endif; ?>
             <img class="gradient" src="<?php echo get_template_directory_uri(); ?>/img/background.jpg" alt="background">
 
-
+            <?php endif; ?>
             <header class="header">
-                <div class="container barra-navegacion">
+                <div class=" barra-navegacion">
                     <?php if (!is_page("inicio")) : ?>
                         <div class="logo">
                             <a href="<?php echo site_url("/"); ?>">
