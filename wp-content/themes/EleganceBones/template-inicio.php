@@ -6,15 +6,40 @@ Template Name: Plantilla Inicio
 
 <?php get_header(); ?>
 
-<main class="container">
+
     <?php
     get_template_part("template-parts/inicio");
     ?>
 
+<main class="container">
+    <?php productos_por_novedades('fade-down-left', 'fade-right');
 
-    <?php mostrar_productos_homepage(); ?>
+    $publicidad_1 = get_field('publicidad_1');
+    if (!empty($publicidad_1)) : ?>
+        <img src="<?php echo esc_url($publicidad_1['url']); ?>" alt="<?php echo esc_attr($publicidad_1['alt']); ?>" class="imagen_publicidad_principal">
+    <?php endif;
+
+    productos_por_oferta('fade-down-left', 'fade-right'); ?>
+
+    <div class="publicidad_vertical"><?php
+                                        $publicidad_2 = get_field('publicidad_2');
+                                        if (!empty($publicidad_2)) : ?>
+            <img src="<?php echo esc_url($publicidad_2['url']); ?>" alt="<?php echo esc_attr($publicidad_2['alt']); ?>" class="imagen_publicidad">
+        <?php
+                                        endif;
+
+                                        $publicidad_3 = get_field('publicidad_3');
+                                        if (!empty($publicidad_3)) : ?>
+            <img src="<?php echo esc_url($publicidad_3['url']); ?>" alt="<?php echo esc_attr($publicidad_3['alt']); ?>" class="imagen_publicidad">
+        <?php
+                                        endif; ?>
+    </div>
+    <?php
 
 
+    productos_por_masVendidos('fade-down-left', 'fade-right') ?>
+
+    <a class="button btnFinal" href="<?php esc_url(wc_get_page_permalink('shop')) ?>">Ir a la Tienda</a>
 </main>
 
 <?php get_footer(); ?>

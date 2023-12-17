@@ -1,19 +1,9 @@
 <?php
 
-function mostrar_productos_homepage()
-{
-
-    // productos_por_categorias('fade-down-left', 'fade-right');
-    productos_por_novedades('fade-down-left', 'fade-right');
-    productos_por_oferta('fade-down-left', 'fade-right');
-    // productos_por_mejorValorados();
-    productos_por_masVendidos('fade-down-left', 'fade-right');
-}
-
 function productos_por_oferta($aos_titulo, $aos_swiper)
 {
 ?>
-    <section class="container section ofertas">
+    <section class=" section ofertas">
         <h1 class="section_title" data-aos="<?php echo $aos_titulo; ?>">Ofertas</h1>
         <div class="productos-swiper" data-aos="<?php echo $aos_swiper; ?>">
             <?php
@@ -29,7 +19,7 @@ function productos_por_oferta($aos_titulo, $aos_swiper)
 function productos_por_categorias($aos_titulo, $aos_swiper)
 {
 ?>
-    <section class="container section categorias">
+    <section class=" section categorias">
         <h1 class="section_title" data-aos="<?php echo $aos_titulo; ?>">Categorias</h1>
         <div class="productos-swiper" data-aos="<?php echo $aos_swiper; ?>">
             <?php
@@ -46,7 +36,7 @@ function productos_por_categorias($aos_titulo, $aos_swiper)
 function productos_por_novedades($aos_titulo, $aos_swiper)
 {
 ?>
-    <section class="container section novedades">
+    <section class=" section novedades">
         <h1 class="section_title" data-aos="<?php echo $aos_titulo; ?>">Novedades</h1>
         <div class="productos-swiper" data-aos="<?php echo $aos_swiper; ?>">
             <?php
@@ -75,7 +65,7 @@ function productos_por_mejorValorados($aos_titulo, $aos_swiper)
 function productos_por_masVendidos($aos_titulo, $aos_swiper)
 {
 ?>
-    <section class="container section mas-vendidos">
+    <section class=" section mas-vendidos">
         <h1 class="section_title" data-aos="<?php echo $aos_titulo; ?>">Mas Vendidos</h1>
         <div class="productos-swiper" data-aos="<?php echo $aos_swiper; ?>">
             <?php

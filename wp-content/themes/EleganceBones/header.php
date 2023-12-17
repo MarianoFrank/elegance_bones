@@ -31,7 +31,7 @@
         ?>
 
         <?php if (is_front_page()) : ?>
-            <div class="contenedor-inicio">
+            <div class="contenedor-inicio ">
             <?php endif; ?>
             <img class="gradient" src="<?php echo get_template_directory_uri(); ?>/img/background.jpg" alt="background">
 
