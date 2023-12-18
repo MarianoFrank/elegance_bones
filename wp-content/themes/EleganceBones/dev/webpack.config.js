@@ -14,6 +14,7 @@ const entry = {
   miniCart: "./src/js/miniCart.js",
   swiper: "./src/js/swiper.js",
   aos: "./src/js/aos.js",
+  productsScroll: "./src/js/productsScroll.js",
 };
 
 export default {

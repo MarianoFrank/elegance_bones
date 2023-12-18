@@ -78,6 +78,9 @@ do_action('woocommerce_before_main_content');
 	</div>
 
 </div>
+<button id="loadMoreBtn">
+	Cargar Más...
+</button>
 <?php
 /**
  * Hook: woocommerce_after_main_content.
