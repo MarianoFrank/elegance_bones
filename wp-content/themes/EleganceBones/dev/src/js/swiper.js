@@ -83,10 +83,10 @@ document.addEventListener("DOMContentLoaded", function () {
         slidesPerView: 4,
       },
     },
-    autoplay: {
-      delay: 3000,
-      pauseOnMouseEnter: true,
-    },
+    // autoplay: {
+    //   delay: 3000,
+    //   pauseOnMouseEnter: true,
+    // },
   };
 
   crearSwipers();

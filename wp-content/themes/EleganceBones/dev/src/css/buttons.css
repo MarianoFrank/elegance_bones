@@ -8,17 +8,36 @@ input[type="submit"] {
   border: none;
   cursor: pointer;
   font-weight: 600;
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
   box-shadow: none;
   width: fit-content;
   white-space: nowrap;
   text-decoration: none;
+  border: 1px solid var(--gris);
 }
 
 .button:hover,
 input[type="submit"]:hover {
   background-color: var(--primario-hover);
+}
+
+.button-secundary {
+  background-color: transparent;
+  color: var(--primario);
+  border: 1px solid var(--gris);
+  margin: 0;
+  padding: 1rem 2rem;
+  border-radius: var(--radius);
+  cursor: pointer;
+  font-weight: 600;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  box-shadow: none;
+  width: fit-content;
+  white-space: nowrap;
+  text-decoration: none;
 }
 

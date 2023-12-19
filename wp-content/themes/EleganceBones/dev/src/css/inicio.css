@@ -50,26 +50,10 @@
   align-items: center;
 }
 
-.copy_buttons .principal_buttons a {
-  display: block;
-  color: var(--blanco);
-  padding: 1rem 2rem;
-  border-radius: var(--radius);
-}
 
 .copy_buttons .principal_buttons {
   display: flex;
   gap: 1rem;
-}
-
-.copy_buttons .principal_buttons a:first-child {
-  background-color: var(--primario);
-}
-
-.copy_buttons .principal_buttons a:last-of-type {
-  background-color: transparent;
-  color: var(--primario);
-  border: 1px solid var(--gris);
 }
 
 .home .grid-inicio {

@@ -63,10 +63,17 @@ function scriptsAndStyles()
     if (is_shop() || is_product_category()) {
         wp_enqueue_script("productsScroll", get_template_directory_uri() . '/js/productsScroll.min.js', [], "1.0.0", true);
         wp_enqueue_script("orderby", get_template_directory_uri() . '/js/orderby.min.js', [], "1.0.0", true);
+        wp_enqueue_script("filtros", get_template_directory_uri() . '/js/filtros.min.js', [], "1.0.0", true);
+
     }
     if (is_product() || is_shop() || is_page("inicio") || is_product_category()) {
         wp_enqueue_script("starsRating", get_template_directory_uri() . '/js/starsRating.min.js', [], "1.0.0", true);
+        wp_enqueue_script("porcentajesProductos", get_template_directory_uri() . '/js/porcentajesProductos.min.js', [], "1.0.0", true);
+
+
     }
+    wp_enqueue_script("menuPrincipal", get_template_directory_uri() . '/js/menuPrincipal.min.js', [], "1.0.0", true);
+
     wp_enqueue_script("miniCart", get_template_directory_uri() . '/js/miniCart.min.js', [], "1.0.0", true);
 }
 

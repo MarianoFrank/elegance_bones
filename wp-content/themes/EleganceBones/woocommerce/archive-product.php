@@ -70,6 +70,10 @@ do_action('woocommerce_before_main_content');
 
 
 	<div class="filtros">
+	<div class="icono-cerrar ">
+            <i class="fa-solid fa-xmark"></i>
+            <p class="margin-0">Cerrar</p>
+        </div>
 		<?php
 		if (is_active_sidebar('sidebar_filtros')) {
 			dynamic_sidebar('sidebar_filtros');
@@ -78,9 +82,6 @@ do_action('woocommerce_before_main_content');
 	</div>
 
 </div>
-<button id="loadMoreBtn">
-	Cargar Más...
-</button>
 <?php
 /**
  * Hook: woocommerce_after_main_content.

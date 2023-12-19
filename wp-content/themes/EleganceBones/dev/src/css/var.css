@@ -23,7 +23,7 @@
   --verde-900: #14532d;
 
   /* Color de estrellas */
-  --amarillo: #ffd700;
+  --amarillo: rgba(255, 229, 81, 0.8);
 
   --radius: 0.5rem;
 

@@ -16,6 +16,22 @@ function productos_por_oferta($aos_titulo, $aos_swiper)
 <?php
 }
 
+function productos_destacados($aos_titulo, $aos_swiper)
+{
+?>
+    <section class=" section destacados">
+        <h1 class="section_title" data-aos="<?php echo $aos_titulo; ?>">Destacados</h1>
+        <div class="productos-swiper" data-aos="<?php echo $aos_swiper; ?>">
+            <?php
+            $shortcode = '[products visibility="featured" limit="8" orderby="date" order="DESC"]';
+            echo do_shortcode($shortcode);
+            ?>
+        </div>
+
+    </section>
+<?php
+}
+
 function productos_por_categorias($aos_titulo, $aos_swiper)
 {
 ?>

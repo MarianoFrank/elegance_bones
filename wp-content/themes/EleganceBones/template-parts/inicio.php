@@ -20,8 +20,8 @@ while (have_posts()) :
 
         <div class="copy_buttons animate__animated animate__zoomIn">
             <div class="principal_buttons">
-                <a href="<?php echo get_permalink(wc_get_page_id('shop')); ?>">Ver Tienda</a>
-                <a href="<?php echo get_permalink(get_page_by_path("sobre-nosotros")); ?>">Sobre Nosotros</a>
+                <a class="button" href=" <?php echo get_permalink(wc_get_page_id('shop')); ?>">Ver Tienda</a>
+                <a class="button-secundary"  href="<?php echo get_permalink(get_page_by_path("sobre-nosotros")); ?>">Sobre Nosotros</a>
 
             </div>
 

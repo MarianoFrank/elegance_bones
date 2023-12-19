@@ -131,3 +131,24 @@ add_action('woocommerce_checkout_after_order_review', 'woocommerce_order_review'
 remove_action('woocommerce_cart_collaterals', 'woocommerce_cross_sell_display', 10);
 add_action('woocommerce_after_cart', 'woocommerce_cross_sell_display');
 
+/**
+ * Reemplaza el mensaje de "oferta" por el valor del campo personalizado ACF.
+ */
+function cambiar_mensaje_oferta_con_acf()
+{
+    global $product;
+
+    if (function_exists('get_field') && get_field('oferta_mensaje', $product->get_id())) {
+        $mensaje_oferta_acf = get_field('oferta_mensaje', $product->get_id());
+
+        // Muestra el mensaje personalizado de ACF
+        echo '<span class="onsale">' . esc_html($mensaje_oferta_acf) . '</span>';
+    } else {
+        woocommerce_show_product_loop_sale_flash();
+    }
+}
+
+// Reemplaza la función original por la personalizada
+remove_action('woocommerce_before_shop_loop_item_title', 'woocommerce_show_product_loop_sale_flash', 10);
+add_action('woocommerce_before_shop_loop_item_title', 'cambiar_mensaje_oferta_con_acf', 10);
+add_action("woocommerce_before_single_product_summary", "cambiar_mensaje_oferta_con_acf", 10);

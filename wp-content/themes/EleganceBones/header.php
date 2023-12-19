@@ -17,10 +17,13 @@
     <?php if (is_active_sidebar('sidebar_descuento')) : ?>
         <div class="mensaje-descuento-container">
             <div class="mensajes-descuento">
-            <?php dynamic_sidebar('sidebar_descuento'); ?>
-            <?php dynamic_sidebar('sidebar_descuento'); ?>
+                <?php dynamic_sidebar('sidebar_descuento'); ?>
+                <?php dynamic_sidebar('sidebar_descuento'); ?>
+                <?php dynamic_sidebar('sidebar_descuento'); ?>
+                <?php dynamic_sidebar('sidebar_descuento'); ?>
+                <?php dynamic_sidebar('sidebar_descuento'); ?>
             </div>
-           
+
         </div>
     <?php
     endif;
@@ -36,29 +39,13 @@
 
         <?php if (is_front_page()) : ?>
             <div class="contenedor-inicio ">
-            <img class="gradient" src="<?php echo get_template_directory_uri(); ?>/img/background.jpg" alt="background">
+                <img class="gradient" src="<?php echo get_template_directory_uri(); ?>/img/background.jpg" alt="background">
 
             <?php endif; ?>
             <header class="header">
-                <div class=" barra-navegacion">
-                    <?php if (!is_page("inicio")) : ?>
-                        <div class="logo">
-                            <a href="<?php echo site_url("/"); ?>">
-                                <!-- get_template_directory_uri() retorna la ubicacion raiz del tema en el que estamos -->
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="logotipo"></a>
-                        </div>
-                    <?php endif; ?>
-                    <?php
-                    //theme_location indica que menu de todos queremos renderizar
-                    $args = [
-                        "menu" => "menu-principal",
-                        "container" => "nav",
-                        "menu_class" => "menu-principal"
-                    ];
-
-                    wp_nav_menu($args);
-
-                    require get_template_directory() . "/template/carrito_nav.php";
-                    ?>
-                </div>
+                <?php if (is_front_page()) : ?>
+                    <?php require get_template_directory() . "/template/navegacion_home.php"; ?>
+                <?php else : ?>
+                    <?php require get_template_directory() . "/template/navegacion_principal.php"; ?>
+                <?php endif; ?>
             </header>

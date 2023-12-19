@@ -15,6 +15,10 @@ const entry = {
   swiper: "./src/js/swiper.js",
   aos: "./src/js/aos.js",
   productsScroll: "./src/js/productsScroll.js",
+  porcentajesProductos: "./src/js/porcentajesProductos.js",
+  menuPrincipal: "./src/js/menuPrincipal.js",
+  filtros: "./src/js/filtros.js",
+
 };
 
 export default {

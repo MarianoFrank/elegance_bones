@@ -11,18 +11,17 @@ if (class_exists('WooCommerce')) {
 ?>
 
 <div class="carrito_nav">
-
-    <div class="mini-cart">
-        <div class="icono-cerrar ">
-            <i class="fa-solid fa-xmark"></i>
-            <p class="margin-0">Cerrar</p>
-        </div>
-
-        <?php echo $minicart_content; ?>
-    </div>
-
     <div class="icono_carrito">
         <i class="fa-solid fa-cart-shopping"></i>
         <div class="carrito-count"><?php echo $cart_item_count; ?></div>
     </div></a>
+</div>
+
+<div class="mini-cart">
+    <div class="icono-cerrar ">
+        <i class="fa-solid fa-xmark"></i>
+        <p class="margin-0">Cerrar</p>
+    </div>
+
+    <?php echo $minicart_content; ?>
 </div>

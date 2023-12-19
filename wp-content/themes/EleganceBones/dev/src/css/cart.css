@@ -4,8 +4,6 @@
   display: flex;
   gap: 1rem;
   align-items: center;
-  justify-content: center;
-  width: 150px;
   cursor: pointer;
 }
 
@@ -13,6 +11,7 @@
   position: relative;
   font-size: 1.8rem;
   color: var(--title-color);
+  cursor: pointer;
 }
 
 .icono_carrito div {
@@ -158,19 +157,26 @@ table.cart tbody tr {
   flex-direction: column;
   position: fixed;
   z-index: 1000;
-  background-color: rgb(255 255 255 / 0.9);
+  background-color: rgb(255 255 255 / 0.85);
   backdrop-filter: blur(10px);
   box-shadow: var(--shadow-1);
   border: 1px solid var(--gris);
   top: 0;
   right: 0;
   height: 100vh;
-  width: 0;
-  max-width: fit-content;
-  transition: width 1s ease-in-out;
+  transition: transform 0.4s cubic-bezier(0.01, 1.01, 0.58, 1);
+  width: 100%;
   cursor: auto;
   overflow: hidden;
   gap: 2rem;
+  padding: 2rem;
+  transform: translateX(100%);
+}
+
+@media (min-width: 768px) {
+  .mini-cart {
+    width: fit-content;
+  }
 }
 
 .mini-cart a:not(.button),
@@ -180,14 +186,8 @@ table.cart tbody tr {
   color: var(--title-color);
 }
 
-@media (min-width: 1024px) {
-  .mini-cart {
-    white-space: nowrap;
-  }
-}
-
-.mini-cart.mostrar {
-  width: 100%;
+.mostrar {
+  transform: translateX(0%);
 }
 
 .icono-cerrar {
@@ -196,12 +196,13 @@ table.cart tbody tr {
   gap: 1rem;
   padding: 1rem 2rem;
   border-radius: var(--radius);
-  margin: 1rem 0 4rem 1rem;
+  margin: 1rem 0 4rem 0;
   align-self: flex-start;
   align-items: center;
   cursor: pointer;
   border: 1px solid var(--title-color);
   color: var(--title-color);
+  width: fit-content;
 }
 
 .icono-cerrar p {
@@ -223,9 +224,10 @@ table.cart tbody tr {
   padding: 0;
   list-style: none;
   gap: 2rem;
+  width: 100%;
 }
 .mini_cart_item {
-  padding: 1rem;
+  padding: 1rem 0;
   border-bottom: 1px solid var(--gris);
   width: 100%;
 }
