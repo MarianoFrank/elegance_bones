@@ -21,6 +21,8 @@
     display: block;
     position: static;
     transform: translate(0);
+    z-index: 0;
+    padding: 0;
   }
 }
 
@@ -60,5 +62,33 @@
   align-items: center;
   justify-content: space-between;
   padding: 1rem 2rem;
+  cursor: pointer;
+}
+
+/* Formulario de busqueda */
+
+.woocommerce-product-search {
+  display: flex;
+  gap: 1rem;
+  outline: none;
+  border-bottom: 1px solid var(--gris);
+}
+
+
+.woocommerce-product-search input{
+  background-color: transparent;
+  border-radius: 0;
+  border: none;
+  max-width: 20rem;
+  padding: 1rem;
+  outline: none;
+}
+.woocommerce-product-search input::placeholder{
+  color: var(--text-color);
+}
+
+.woocommerce-product-search button {
+  background-color: transparent;
+  border: none;
   cursor: pointer;
 }

@@ -78,6 +78,12 @@ th {
 
 a {
   font-weight: bold;
+
+}
+
+a:hover {
+  text-decoration:underline;
+  
 }
 
 h1,
@@ -103,7 +109,9 @@ select {
   padding: 1rem 2rem;
   color: #1a202c;
   border: 1px solid var(--gris);
-  outline: 0;
+  -webkit-tap-highlight-color: transparent; 
+  -webkit-focus-ring-color: transparent; 
+  outline: none;
   resize: none;
 }
 input[type="radio"] {
@@ -122,6 +130,8 @@ textarea::placeholder {
 input:focus,
 textarea:focus {
   box-shadow: 0 0 0 1px var(--primario) inset;
+  outline: none !important;
+
 }
 
 label {
@@ -141,6 +151,7 @@ label {
 ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 span,
@@ -148,4 +159,9 @@ li,
 ul,
 a {
   line-height: normal !important;
+}
+
+fieldset{
+  border: 1px solid var(--gris);
+  border-radius: var(--radius);
 }

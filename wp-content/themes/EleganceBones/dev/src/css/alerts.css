@@ -3,7 +3,8 @@
 .woocommerce-error {
   border: none;
   border-radius: var(--radius);
-  display: inline-block;
+  display: flex;
+  gap: 1rem;
   vertical-align: middle;
   width: 100%;
   padding: 2rem;
@@ -19,8 +20,6 @@
   color: var(--azul-800);
 }
 
-
-
 .woocommerce-info::before {
   content: "\f05a";
   font-family: "Font Awesome 5 Free";
@@ -34,10 +33,11 @@
   font-weight: bold;
   cursor: pointer;
   padding: 0 !important;
+  border: none;
 }
 
-.woocommerce-info a:hover{
-    background-color: transparent !important;
+.woocommerce-info a:hover {
+  background-color: transparent !important;
 }
 
 /* Message */
@@ -62,6 +62,7 @@
   font-weight: bold;
   background-color: transparent;
   padding: 0;
+  border: none;
 }
 
 .woocommerce-message a:hover {
@@ -84,8 +85,8 @@
   color: var(--rojo-800);
 }
 
-.woocommerce-error li{
-    color: var(--rojo-800);
+.woocommerce-error li {
+  color: var(--rojo-800);
 }
 
 .woocommerce-error a {
@@ -93,6 +94,7 @@
   font-weight: bold;
   background-color: transparent;
   padding: 0;
+  border: none;
 }
 
 .woocommerce-error a:hover {

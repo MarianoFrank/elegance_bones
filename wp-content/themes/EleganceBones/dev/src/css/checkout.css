@@ -17,10 +17,7 @@
   .checkout .resumen {
     flex: 0 0 calc(40% - 15px);
     max-width: calc(40% - 15px);
-    position: sticky;
-    top: 5rem;
-    left: 0;
-    height: 100%;
+   
   }
 }
 
@@ -124,75 +121,8 @@ label abbr {
   outline: none;
 }
 
-/* Resumen */
 
-.resumen table {
-  margin: 0 auto;
-  box-shadow: var(--input-shadow);
-  border-radius: var(--radius);
-}
-.resumen tr {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-}
 
-.resumen tbody tr {
-  margin: 1rem 0;
-}
-
-.resumen th {
-  padding: 1rem;
-  background-color: var(--blanco-secundario);
-  display: inline-block;
-}
-
-.resumen thead tr {
-  border-bottom: 1px solid var(--gris);
-}
-
-.resumen td {
-  padding: 0 1rem;
-  margin: 0 auto;
-}
-
-.resumen td.product-name {
-  color: var(--title-color);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  gap: 1rem;
-}
-
-.resumen td.product-name img {
-  width: 5rem;
-  height: auto;
-  object-fit: cover;
-}
-.resumen td.product-name div {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-
-.woocommerce-shipping-methods {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.woocommerce-shipping-methods label {
-  margin: 0 !important;
-}
-
-.resumen tfoot tr {
-  border-top: 1px solid var(--gris);
-}
-
-.resumen tfoot tr th {
-  border-right: 1px solid var(--gris);
-}
 
 #payment ul,
 #payment li {

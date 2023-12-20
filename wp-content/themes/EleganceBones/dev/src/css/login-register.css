@@ -1,0 +1,21 @@
+.formulario-login-registro-container{
+    max-width: 50rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+
+
+.form-row .woocommerce-form-login__rememberme{
+    display: flex;
+    flex-direction: row-reverse;
+    width: fit-content;
+    gap: 1rem;
+}
+
+.form-row .woocommerce-form-login__rememberme .woocommerce-form__input-checkbox{
+    width: fit-content;
+    cursor: pointer;
+}

@@ -16,11 +16,13 @@ input[type="submit"] {
   white-space: nowrap;
   text-decoration: none;
   border: 1px solid var(--gris);
+ 
 }
 
 .button:hover,
 input[type="submit"]:hover {
   background-color: var(--primario-hover);
+  text-decoration: none;
 }
 
 .button-secundary {
@@ -41,3 +43,7 @@ input[type="submit"]:hover {
   text-decoration: none;
 }
 
+.button-secundary:hover{
+  background-color: var(--secundario-hover);
+  text-decoration: none;
+}

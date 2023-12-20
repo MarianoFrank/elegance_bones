@@ -1,0 +1,92 @@
+table.cart {
+  margin: 0 auto;
+  width: 100%;
+  border: 1px solid var(--gris);
+  border-radius: var(--radius);
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+table.cart tr {
+  display: grid;
+  grid-template-columns: 2fr repeat(3, 1fr);
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+table.cart th {
+  width: fit-content;
+}
+
+table.cart thead tr {
+  background-color: var(--blanco-secundario);
+  border-bottom: 1px solid var(--gris);
+  border: none;
+  padding: 1rem;
+}
+
+table.cart thead {
+  border-bottom: 1px solid var(--gris);
+  display: block;
+}
+
+table.cart tbody tr {
+  margin: 1rem 0;
+}
+
+/* Resumen en finaliza compra */
+
+.resumen table {
+  margin: 0 auto;
+  width: 100%;
+
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.resumen table tr {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.resumen table th {
+  width: fit-content;
+}
+
+.resumen table thead tr {
+  padding: 1rem;
+}
+
+.resumen table thead {
+  display: block;
+}
+
+.resumen table tbody tr {
+  margin: 1rem 0;
+}
+
+.resumen table .product-name {
+  text-wrap: nowrap;
+  align-items: center;
+}
+.resumen table tbody{
+    display: grid;
+    border-bottom: 1px solid var(--gris);
+
+}
+.resumen table tr:not(.cart_item) {
+  border-bottom: 1px solid var(--gris);
+  line-height: normal;
+  padding: 1rem 0;
+
+}
+
+.resumen table .product-name div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}

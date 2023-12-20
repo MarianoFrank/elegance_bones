@@ -43,9 +43,7 @@
 
             <?php endif; ?>
             <header class="header">
-                <?php if (is_front_page()) : ?>
-                    <?php require get_template_directory() . "/template/navegacion_home.php"; ?>
-                <?php else : ?>
-                    <?php require get_template_directory() . "/template/navegacion_principal.php"; ?>
-                <?php endif; ?>
+
+                <?php require get_template_directory() . "/template/navegacion_principal.php"; ?>
+
             </header>

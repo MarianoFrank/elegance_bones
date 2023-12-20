@@ -31,7 +31,7 @@ do_action( 'woocommerce_before_account_orders', $has_orders ); ?>
 				<?php endforeach; ?>
 			</tr>
 		</thead>
-
+					
 		<tbody>
 			<?php
 			foreach ( $customer_orders->orders as $customer_order ) {

@@ -62,6 +62,8 @@
   display: none;
 }
 
+
+
 .products .product {
   border-radius: var(--radius);
   border: 1px solid var(--gris);
