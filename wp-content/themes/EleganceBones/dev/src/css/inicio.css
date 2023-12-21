@@ -50,7 +50,6 @@
   align-items: center;
 }
 
-
 .copy_buttons .principal_buttons {
   display: flex;
   gap: 1rem;
@@ -76,12 +75,7 @@
   align-items: flex-end;
   background-color: rgb(255 255 255 / 0.85);
   position: relative;
-}
-
-.home .barra-navegacion {
-  width: 100%;
-  margin: 2rem 0;
-  height: fit-content;
+  
 }
 
 .home .container {
@@ -131,7 +125,7 @@
 }
 
 .productos-swiper .woocommerce {
-  padding:  2rem;
+  padding: 2rem;
 }
 
 .btnFinal {
@@ -175,4 +169,31 @@
   margin-top: 3rem;
   border-radius: var(--radius);
   width: fit-content;
+}
+
+/* Navegacion pantalla principal */
+
+.barra-home {
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+  margin: 4rem;
+}
+
+.barra-home nav ul {
+  display: flex;
+  gap: 2rem;
+  
+}
+
+.barra-home a{
+  list-style-type: none;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.barra-home .iconos-derecha {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
 }

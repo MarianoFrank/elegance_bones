@@ -1,0 +1,12 @@
+2023-12-21T18:49:09+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\laragon\www\WPelegancebones/wp-content/themes/EleganceBones/template/navegacion_home.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\WPelegancebones\wp-content\themes\EleganceBones\header.php:47
+Stack trace:
+#0 C:\laragon\www\WPelegancebones\wp-includes\template.php(790): require_once()
+#1 C:\laragon\www\WPelegancebones\wp-includes\template.php(725): load_template('C:\\laragon\\www\\...', true, Array)
+#2 C:\laragon\www\WPelegancebones\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\laragon\www\WPelegancebones\wp-content\themes\EleganceBones\template-inicio.php(7): get_header()
+#4 C:\laragon\www\WPelegancebones\wp-includes\template-loader.php(106): include('C:\\laragon\\www\\...')
+#5 C:\laragon\www\WPelegancebones\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\WPelegancebones\index.php(17): require('C:\\laragon\\www\\...')
+#7 {main}
+  thrown en C:\laragon\www\WPelegancebones\wp-content\themes\EleganceBones\header.php en la línea 47
+

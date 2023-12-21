@@ -1,39 +1,105 @@
-@media (min-width: 768px) {
-  header {
-    height: 150px;
-  }
+header {
+  height: 150px;
 }
 
 .barra-navegacion {
   background-color: rgb(255 255 255 / 0.85);
   backdrop-filter: blur(10px);
   width: 100%;
-  z-index: 10000;
-  position: fixed;
+  z-index: 100;
+  position: relative;
+  transform: translate(0);
+  transition: transform 0.4s cubic-bezier(0.01, 1.01, 0.58, 1);
+}
+.home .barra-navegacion{
+  position: fixed !important;
+  top: 0;
 }
 
 @media (min-width: 768px) {
-  .barra-navegacion {
-    position: unset;
+  .barra-smartphone,
+  .menu-smartphone {
+    display: none !important;
   }
 }
 
-.barra-navegacion .barra-container {
-  position: fixed;
-  background-color: rgb(255 255 255 / 0.85);
-  backdrop-filter: blur(10px);
-  width: 100%;
-  height: 100vh;
-  top: 0;
-  left: 0;
+.barra-smartphone {
   display: flex;
-  gap: 3rem;
   flex-direction: column;
+  margin: 0 auto;
+
+  width: 90%;
+}
+
+.barra-smartphone .smartphone-superior,
+.barra-smartphone .smartphone-inferior {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+.barra-smartphone .smartphone-superior .barra-smartphone-icons {
+  display: flex;
+  gap: 2rem;
   align-items: center;
 }
 
+.barra-smartphone .smartphone-inferior {
+  border-top: 1px solid var(--gris);
+}
+
+.barra-smartphone .smartphone-inferior .menu-icon {
+  background-color: var(--primario);
+  padding: 1rem;
+  display: flex;
+  border-radius: var(--radius);
+  align-items: center;
+  justify-content: center;
+  color: var(--blanco);
+  display: block;
+  cursor: pointer;
+}
+
+.barra-smartphone .smartphone-inferior .woocommerce-product-search {
+  border: none;
+}
+
+.menu-smartphone {
+  position: fixed;
+  flex-direction: column;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(255 255 255 / 0.85);
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+  transition: transform 0.4s cubic-bezier(0.01, 1.01, 0.58, 1);
+  transform: translateX(100%);
+  padding: 2rem;
+}
+
+.menu-smartphone nav ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.mostrar-menu {
+  transform: translate(0);
+}
+
+.barra-container {
+  background-color: rgb(255 255 255 / 0.85);
+  backdrop-filter: blur(10px);
+  width: 100%;
+  display: none;
+  gap: 3rem;
+  background-color: transparent;
+}
+
 @media (min-width: 768px) {
-  .barra-navegacion .barra-container {
+  .barra-container {
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -49,15 +115,20 @@
   }
 }
 
+
+
 .barra-navegacion.barra-fixed .barra-container {
   border: none;
 }
-@media (min-width: 768px) {
-  .barra-fixed {
-    position: fixed;
-    top: 0;
-    box-shadow: var(--shadow-1);
-  }
+
+.barra-fixed {
+  position: fixed;
+  top: 0;
+  box-shadow: var(--shadow-1);
+}
+
+.barra-translate {
+  transform: translateY(-100%);
 }
 
 .barra-navegacion .nav-derecha {
@@ -71,7 +142,7 @@
   .barra-navegacion .nav-derecha {
     display: flex;
     align-items: center;
-    
+
     gap: 2rem;
     justify-content: center;
   }
@@ -81,7 +152,7 @@
   font-size: 1.8rem;
 }
 
-header .menu-principal {
+.menu-principal {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -93,7 +164,7 @@ header .menu-principal {
 }
 
 @media (min-width: 768px) {
-  header .menu-principal {
+  .menu-principal {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -103,12 +174,12 @@ header .menu-principal {
   }
 }
 
-header .menu-principal a {
+.menu-principal a {
   color: var(--text-color);
   font-weight: 400;
 }
 
-header .menu-principal .current-menu-item a {
+.menu-principal .current-menu-item a {
   font-weight: 700;
 }
 
@@ -133,8 +204,15 @@ header .menu-principal .current-menu-item a {
 }
 .logo a .logo-text {
   text-transform: uppercase;
-  font-size: 2.8rem;
+  font-size: 1.5rem;
 }
+
+@media (min-width: 768px) {
+  .logo a .logo-text {
+    font-size: 2.8rem;
+  }
+}
+
 .logo {
   transition: filter 0.3s ease, transform 0.3s ease;
 }

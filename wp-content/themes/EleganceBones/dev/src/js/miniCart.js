@@ -4,8 +4,10 @@ document.addEventListener("DOMContentLoaded", function () {
     contenedorMiniCarrito.classList.add("mostrar");
   };
 
-  const iconCart = document.querySelector(".icono_carrito");
-  iconCart.onclick = mostrarCarrito;
+  const iconsCart = document.querySelectorAll(".icono_carrito");
+  iconsCart.forEach((iconCart) => {
+    iconCart.onclick = mostrarCarrito;
+  });
 
   const cerrarMiniCarrito = (e) => {
     console.log("cerra");

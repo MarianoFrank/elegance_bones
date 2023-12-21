@@ -7,12 +7,15 @@ Template Name: Plantilla Inicio
 <?php get_header(); ?>
 
 
-    <?php
-    get_template_part("template-parts/inicio");
-    ?>
+<?php
+get_template_part("template-parts/inicio");
+require get_template_directory() . "/template/navegacion_principal.php";
+?>
 
 <main class="container">
-    <?php productos_por_novedades('fade-down-left', 'fade-right');
+    <?php
+
+    productos_por_novedades('fade-down-left', 'fade-right');
     productos_destacados('fade-down-left', 'fade-right');
 
     $publicidad_1 = get_field('publicidad_1');
