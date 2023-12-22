@@ -6,24 +6,17 @@
 .titulo_bienvenida {
   font-family: var(--fuente-headings);
   text-transform: uppercase;
-  font-size: 3rem;
   font-weight: 400;
   display: flex;
   flex-direction: column;
   margin-bottom: 4rem;
+  font-size: clamp(3rem, 4.5vw, 8rem);
 }
 
 @media (min-width: 768px) {
   .titulo_bienvenida {
-    font-size: 5rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .titulo_bienvenida {
     flex-direction: row;
     gap: 2rem;
-    font-size: 7rem;
   }
 }
 
@@ -33,7 +26,6 @@
 }
 
 .titulo_bienvenida span:last-child {
-  align-self: flex-end;
   -webkit-text-stroke: 1px var(--primario);
   color: transparent;
 }
@@ -47,7 +39,15 @@
   display: flex;
   gap: 2rem;
   margin-top: 6rem;
-  align-items: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .copy_buttons {
+    align-items: center;
+    flex-direction: row;
+  }
 }
 
 .copy_buttons .principal_buttons {
@@ -56,26 +56,83 @@
 }
 
 .home .grid-inicio {
-  display: grid;
-  grid-template-columns: 1fr 1.8fr;
-  border-bottom: 1px solid var(--gris);
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 2rem;
+  position: relative;
+}
+
+@media (min-width: 1024px) {
+  .home .grid-inicio {
+    display: grid;
+    grid-template-columns: 1fr 1.8fr;
+    gap: 0;
+    border-bottom: 1px solid var(--gris);
+  }
 }
 
 .home .grid-inicio .imagen-destacada {
-  width: 100%;
-  max-width: 1020px;
-  height: auto;
-  height: 100vh;
+  height: 40rem;
   object-fit: cover;
+  object-position: center;
+  width: 100%;
+}
+
+.imagen-destacada-container {
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0;
+}
+
+.imagen-destacada-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; /* Ajusta la altura de la zona de desvanecimiento según tus necesidades */
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 1)
+  );
+}
+@media (min-width: 1024px) {
+  .imagen-destacada-container::before {
+    background: none;
+  }
+  .imagen-destacada-container {
+    position: relative;
+  }
+}
+
+@media (min-width: 1024px) {
+  .home .grid-inicio .imagen-destacada {
+    width: 100%;
+    max-width: 1020px;
+    height: 100%;
+    box-shadow: none;
+    object-position: center;
+  }
 }
 
 .home .contenedor-inicio {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  background-color: rgb(255 255 255 / 0.85);
+  margin: 0 auto;
+  background-color: rgb(255 255 255 / 0.7);
   position: relative;
-  
+}
+
+@media (min-width: 1024px) {
+  .home .contenedor-inicio {
+    background-color: rgb(255 255 255 / 0.85);
+  }
 }
 
 .home .container {
@@ -89,17 +146,23 @@
   height: 100%;
 }
 
+@media (min-width: 1024px) {
+  .gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    pointer-events: none;
+    z-index: -1;
+    filter: blur(1px);
+    transform: rotate(180deg);
+    mask-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  }
+}
+
 .gradient {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  object-fit: cover;
-  pointer-events: none;
-  z-index: -1;
-  filter: blur(1px);
-  transform: rotate(180deg);
-  mask-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  display: none;
 }
 
 /* Secciones */
@@ -138,6 +201,11 @@
   height: fit-content;
 }
 
+.publicidad_vertical img,
+.imagen_publicidad_principal {
+  width: 100% !important;
+}
+
 @media (min-width: 768px) {
   .publicidad_vertical {
     display: grid;
@@ -173,27 +241,22 @@
 
 /* Navegacion pantalla principal */
 
+.home header {
+  width: 100%;
+  height: auto;
+}
+
 .barra-home {
   display: flex;
   align-items: center;
-  gap: 6rem;
-  margin: 4rem;
-}
-
-.barra-home nav ul {
-  display: flex;
+  justify-content: flex-end;
   gap: 2rem;
-  
+  margin: 4rem auto;
+  width: 80%;
 }
 
-.barra-home a{
+.barra-home a {
   list-style-type: none;
   text-decoration: none;
   font-weight: 400;
-}
-
-.barra-home .iconos-derecha {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
 }

@@ -1,4 +1,4 @@
-<div class="barra-navegacion <?php echo (is_front_page()) ? "home-nav" : ""; ?> ">
+<div class="barra-navegacion <?php echo (is_front_page()) ? "home-nav barra-translate" : ""; ?> ">
     <div class="barra-container">
         <?php require get_template_directory() . "/template/logo_nav.php"; ?>
 

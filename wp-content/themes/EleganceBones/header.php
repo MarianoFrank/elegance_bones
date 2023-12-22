@@ -29,23 +29,26 @@
     endif;
     if (is_front_page()) : ?>
         <div class="grid-inicio">
-        <?php
-        if (has_post_thumbnail()) {
-            //si hay imagen la mostramos
-            the_post_thumbnail("large", ["class" => "imagen-destacada"]);
-        }
-    endif;
-        ?>
+            <div class="imagen-destacada-container">
+            <?php
+            if (has_post_thumbnail()) {
+                //si hay imagen la mostramos
+                the_post_thumbnail("large", ["class" => "imagen-destacada"]);
+            }
+        endif;
+            ?>
+            </div>
 
-        <?php if (is_front_page()) : ?>
-            <div class="contenedor-inicio ">
-                <img class="gradient" src="<?php echo get_template_directory_uri(); ?>/img/background.jpg" alt="background">
 
-            <?php endif; ?>
-            <header class="header">
-                <?php if (is_front_page()) {
-                    require get_template_directory() . "/template/navegacion_home.php";
-                } else {
-                    require get_template_directory() . "/template/navegacion_principal.php";
-                } ?>
-            </header>
+            <?php if (is_front_page()) : ?>
+                <div class="contenedor-inicio ">
+                    <img class="gradient" src="<?php echo get_template_directory_uri(); ?>/img/background.jpg" alt="background">
+
+                <?php endif; ?>
+                <header class="header">
+                    <?php if (is_front_page()) {
+                        require get_template_directory() . "/template/navegacion_home.php";
+                    } else {
+                        require get_template_directory() . "/template/navegacion_principal.php";
+                    } ?>
+                </header>

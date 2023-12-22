@@ -39,9 +39,7 @@ function menus()
     register_nav_menus([
         "menu-sociales" => __("Menu Sociales"),
     ]);
-    register_nav_menus([
-        "menu-home" => __("Menu Home"),
-    ]);
+
 }
 add_action('after_setup_theme', 'menus');
 
